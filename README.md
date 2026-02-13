@@ -1,7 +1,7 @@
 # Rice-CausalCoT
 ##Welcome to the code and materials repository of Rice-CausalCoT.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/aab3e126-7add-45df-b684-b3e611c064f8" alt="TOTAL2" width="400">
+  <img src="https://github.com/user-attachments/assets/aab3e126-7add-45df-b684-b3e611c064f8" alt="TOTAL2" width="600">
 </p>
 
 
@@ -43,11 +43,11 @@ Windows PowerShell:
 setx OPENAI_API_KEY "YOUR_API_KEY"
 Note: On Windows, you may need to restart your terminal for the environment variable to take effect.
 ## File Structure
-#RAG/: Retrieval-Augmented Generation component. First run Gene_Intersection.py, then run Retrieve_information.py to obtain retrieval information for associated genes in the dataset.  
+1.	RAG/: Retrieval-Augmented Generation component. First run Gene_Intersection.py, then run Retrieve_information.py to obtain retrieval information for associated genes in the dataset.  
 Retrieve_information: Retrieves associated genes from functional databases.  
 Gene_Intersection: Intersection of genes in functional databases and genes in the dataset.  
-#BioCoT/: Bio-a priori reasoning CoT component. Run GPT_BioCoT.py to output multi-dimensional reasoning evidence from RAG embeddings to outputs/. Execute Merge_BioCoT_Result.py to consolidate bio-a priori information for all genes into a single file: Bio_Result.csv.  
-#CausalCoT/: Causal-Outcome Learning CoT component.  
+2.	BioCoT/: Bio-a priori reasoning CoT component. Run GPT_BioCoT.py to output multi-dimensional reasoning evidence from RAG embeddings to outputs/. Execute Merge_BioCoT_Result.py to consolidate bio-a priori information for all genes into a unified file: Bio_Result.csv.  
+3.	CausalCoT/: Causal-Outcome Learning CoT component.  
 CausalCOT_AS.py: Executes the causal structure learning component under biological prior constraints.  
 Expression_Screening.py: Using gene IDs, filter out the corresponding gene columns from the full gene expression dataset.  
 Expression_Integration.py: Merge query genes and associated genes.  
