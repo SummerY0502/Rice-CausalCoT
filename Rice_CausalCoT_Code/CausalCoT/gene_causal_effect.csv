@@ -1,0 +1,2 @@
+﻿Gene_ID,Mechanism_Module,Causal_Explanation
+OS06G0665500,ROS清除/ABA-ABI5互作通路,OS06G0665500直接因果效应为 OR = exp(β) = 0.006609，0.006609(<1)说明表达量提升，耐盐性减弱。其功能对应于ROS清除/ABA-ABI5互作通路的功能，具体作用为增强抗氧化能力/ROS清除能力，并通过ABA/ABI5通路调控盐胁迫响应，降低盐胁迫下ROS积累与氧化损伤，从而参与水稻耐盐能力。

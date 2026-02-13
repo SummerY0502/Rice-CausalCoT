@@ -1,0 +1,51 @@
+```json
+{
+  "batch_meta": {"batch_index": 1, "num_genes": 1},
+  "genes": [
+    {
+      "rap_id": "Os01g0104100",
+      "gene_symbol": "NCA1A",
+      "gene_name": "NO CATALASE ACTIVITY 1A",
+      "trait_name": "salt tolerance",
+      "description": "Chaperone protein regulating catalase (CAT) activity; cold-inducible zinc finger protein; reported tolerance to cold, salt and drought.",
+      "position": "chr01:209771..214173 (+ strand)",
+      "go": "Molecular Function: protein binding (GO:0005515)",
+      "S1": {
+        "label": "S1b",
+        "reason": "The gene lies at chr1:0.209–0.214 Mb, outside credible rice salt/salinity QTLs on chromosome 1, including the major Saltol locus (~10–12 Mb) and other mapped intervals around 26–39 Mb; therefore no overlap with main-effect salt QTLs."
+      },
+      "S2": {
+        "label": "S2a",
+        "reason": "NCA1A encodes a zinc-finger chaperone that activates catalase, a core ROS-scavenging enzyme. ROS detoxification is a central module in rice salinity tolerance; rice NCA1 isoforms redundantly regulate CAT activity."
+      },
+      "S3": {
+        "label": "S3a",
+        "reason": "Catalase-mediated H2O2 detoxification occurs in the peroxisome/antioxidant pathways; KEGG peroxisome pathway includes catalase as a ROS-detox component, aligning NCA1A’s function with salt-relevant ROS homeostasis."
+      },
+      "S4": {
+        "label": "S4b",
+        "reason": "Arabidopsis NCA1 regulates catalase and multiple abiotic stress responses, but explicit homolog evidence directly demonstrating salt tolerance change is not verified; thus no qualifying S4a."
+      },
+      "S5": {
+        "label": "S5a",
+        "reason": "In rice, overexpression of the OsCOIN/OsNCA1A gene (RAP Os01g0104100) causally increased tolerance to salt (NaCl) along with cold and drought, satisfying genetic validation in Oryza sativa.",
+        "pmids": ["17549515"],
+        "dois": ["10.1007/s00425-007-0548-5"]
+      },
+      "Conservative": "Yes",
+      "reason": "Direct rice experimental evidence (S5a) is satisfied.",
+      "Exploratory": "Yes",
+      "reason": "At least one of S1–S5 (S5a; also S2a/S3a) is satisfied.",
+      "summary": "Os01g0104100 (NCA1A/OsCOIN) is a catalase-activating zinc-finger chaperone positioned outside known chr1 salt QTLs. Its function aligns with pivotal ROS-detox modules implicated in rice salinity tolerance, and transgenic overexpression in rice increases salt tolerance, providing causal evidence.",
+      "sources": [
+        {"title":"Two NCA1 isoforms interact with catalase in a mutually exclusive manner to redundantly regulate its activity in rice","url":"https://link.springer.com/article/10.1186/s12870-019-1707-0","year":2019},
+        {"title":"Overexpression of OsCOIN, a putative cold inducible zinc finger protein, increased tolerance to chilling, salt and drought, and enhanced proline level in rice","url":"https://link.springer.com/article/10.1007/s00425-007-0548-5","year":2007},
+        {"title":"Gene: OsCOIN (Os01g0104100) – Ensembl Plants","url":"https://plants.ensembl.org/Oryza_sativa/Gene/Summary?g=Os01g0104100","year":2025},
+        {"title":"Characterizing the Saltol Quantitative Trait Locus for Salinity Tolerance in Rice","url":"https://link.springer.com/article/10.1007/s12284-010-9047-4","year":2010},
+        {"title":"QTL-Seq identified a genomic region on chromosome 1 for soil-salinity tolerance in Thai rice donor line “Jao Khao”","url":"https://www.frontiersin.org/articles/10.3389/fpls.2024.1424689/full","year":2024},
+        {"title":"KEGG Pathway—Peroxisome (Oryza sativa japonica)","url":"https://www.kegg.jp/pathway/map04146+osa","year":2025}
+      ]
+    }
+  ]
+}
+```[Characterizing the Saltol Quantitative Trait Locus for Salinity ...](https://link.springer.com/article/10.1007/s12284-010-9053-8)[Morphophysiological Diversity and Haplotype Analysis of Saltol QTL ...](https://www.sciencedirect.com/science/article/pii/S1672630823000434)[Identification of Candidate Genes for Salt Tolerance at Seedling ... - MDPI](https://www.mdpi.com/2073-4395/14/5/929)

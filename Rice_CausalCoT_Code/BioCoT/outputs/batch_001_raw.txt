@@ -1,0 +1,51 @@
+```json
+{
+  "batch_meta": {"batch_index": 1, "num_genes": 1},
+  "genes": [
+    {
+      "rap_id": "OS01G0101600",
+      "gene_symbol": "OsSCR106 ; OsSCR106, OsRRM1-1 ; SCR106, RRM1-1",
+      "gene_name": "SC-Related106 ; SC-Related106, Serine/arginine-rich (SR) protein subfamily SC-related 106, RNA recognition motif domain protein 1-1 ; SC-RELATED 106, RNA RECOGNITION MOTIF DOMAIN PROTEIN 1-1",
+      "trait_name": "salt tolerance",
+      "description": "Immunoglobulin-like fold domain containing protein. (Os01t0101600-01) SCR106 splicing factor, Regulation of pre-mRNA splicing, Regulation of abiotic stress responses (Os01t0101600-02) Hypothetical conserved gene. (Os01t0101600-03)",
+      "position": "chr01:72816..78349 (+ strand)",
+      "go": "Molecular Function: metal ion binding (GO:0046872) nucleic acid binding (GO:0003676) protein binding (GO:0005515) RNA binding (GO:0003723)",
+      "S1": {
+        "label": "S1b",
+        "reason": "The gene lies at chr1:0.0728–0.0783 Mb, which does not overlap major rice salinity QTL intervals such as Saltol on chr1 (~11.1–14.6 Mb) or other reported chr1 salinity QTLs mapped near ~38.3–38.9 Mb; therefore, no credible QTL overlap at this locus."
+      },
+      "S2": {
+        "label": "S2a",
+        "reason": "GO and description indicate an SR-like pre-mRNA splicing factor (RNA-binding, splicing regulator). SR splicing regulators are pivotal in abiotic stress response modules in rice; OsSCR106 functions as a central regulator of stress-responsive splicing under NaCl stress."
+      },
+      "S3": {
+        "label": "S3b",
+        "reason": "No authoritative KEGG or Plant Reactome pathway entry directly annotates OsSCR106 to a defined rice salt-tolerance pathway (e.g., ion homeostasis/ABA modules). Its role is regulatory splicing rather than a curated pathway component."
+      },
+      "S4": {
+        "label": "S4a",
+        "reason": "Homologous SR splicing factors in Arabidopsis (e.g., SR45) causally modulate salt tolerance; loss-of-function mutants are salt-sensitive and complementation rescues tolerance, supporting conserved functional relevance of SR splicing regulators to salinity."
+      },
+      "S5": {
+        "label": "S5a",
+        "reason": "In Oryza sativa, a peer-reviewed study shows scr106 loss-of-function mutants are hypersensitive to NaCl and complementation with OsSCR106 restores tolerance; salt keywords appear in title/abstract and the study includes causal genetic validation in rice.",
+        "pmids": ["37924151"],
+        "dois": ["10.1093/jxb/erad433"]
+      },
+      "Conservative": "Yes",
+      "reason": "Direct experimental causality in rice (S5a) is satisfied; hence Conservative=Yes.",
+      "Exploratory": "Yes",
+      "reason": "At least one of S1–S5 (S2a, S4a, S5a) is satisfied; hence Exploratory=Yes.",
+      "summary": "OsSCR106 (OS01G0101600) encodes an SR-like splicing factor on chr1 at ~0.073 Mb. It does not co-localize with major rice salinity QTLs (e.g., Saltol). Mechanistically, it is a central regulator of stress-responsive RNA splicing. Orthologous SR factors in Arabidopsis affect salt tolerance. Critically, rice loss-of-function and complementation experiments demonstrate OsSCR106 causally modulates Oryza sativa salt tolerance, supporting strong evidence.",
+      "sources": [
+        {"title": "SCR106 splicing factor modulates abiotic stress responses by maintaining RNA splicing in rice", "url": "https://doi.org/10.1093/jxb/erad433", "year": 2024},
+        {"title": "Characterizing the Saltol Quantitative Trait Locus for Salinity Tolerance in Rice", "url": "https://link.springer.com/article/10.1007/s12284-010-9046-9", "year": 2010},
+        {"title": "Q-TARO: QTL Annotation Rice Online database (database description)", "url": "https://lsdb.info/resource/qtaro", "year": 2008},
+        {"title": "The Arabidopsis splicing regulator SR45 confers salt tolerance in a splice isoform-dependent manner", "url": "https://link.springer.com/article/10.1007/s11103-019-00864-4", "year": 2019},
+        {"title": "RiceData entry for OsSCR106 (LOC_Os01g01150/Os01g0101600)", "url": "https://rice-data.com", "year": 2025},
+        {"title": "QTL-Seq identified a genomic region on chromosome 1 for soil-salinity tolerance (qCMS1/qTN1 at ~38.3–38.9 Mb)", "url": "https://www.frontiersin.org/articles/10.3389/fpls.2024.1424689", "year": 2024}
+      ]
+    }
+  ]
+}
+```[RAP-DB | HOME](https://rapdb.dna.affrc.go.jp/)[Rice Annotation Project Database (RAP-DB): literature-curated gene ...](https://www.biorxiv.org/content/10.64898/2026.01.16.699882v1.full.pdf)[Rice Genome Annotation Project](https://rice.uga.edu/)
