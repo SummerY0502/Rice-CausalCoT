@@ -39,13 +39,16 @@ Windows PowerShell:
 setx OPENAI_API_KEY "YOUR_API_KEY"  
 
 ## File Structure
-1.	RAG/: Retrieval-Augmented Generation component. First run Gene_Intersection.py, then run Retrieve_information.py to obtain retrieval information for associated genes in the dataset.  
-Retrieve_information: Retrieves associated genes from functional databases.  
-Gene_Intersection: Intersection of genes in functional databases and genes in the dataset.  
-2.	BioCoT/: Bio-a priori reasoning CoT component. Run GPT_BioCoT.py to output multi-dimensional reasoning evidence from RAG embeddings to outputs/. Execute Merge_BioCoT_Result.py to consolidate bio-a priori information for all genes into a unified file: Bio_Result.csv.  
-3.	CausalCoT/: Causal-Outcome Learning CoT component.  
-CausalCOT_AS.py: Executes the causal structure learning component under biological prior constraints.  
-Expression_Screening.py: Using gene IDs, filter out the corresponding gene columns from the full gene expression dataset.  
-Expression_Integration.py: Merge query genes and associated genes.  
+1.	RAG/: Retrieval-Augmented Generation component.
+    Gene_Intersection: Intersection of genes in functional databases and genes in the dataset.  
+    Retrieve_information: Retrieves associated genes from functional databases.  
+3.	BioCoT/: a priori reasoning CoT component.
+    Run GPT_BioCoT.py to output multidimensional reasoning evidence from RAG embeddings to outputs/.
+  	Execute Merge_BioCoT_Result.py to consolidate a priori information for all genes into a unified file: Bio_Result.csv.  
+4.	CausalStruCoT/: Causal Structure Learning CoT component.
+    Expression_Screening.py: Using gene IDs, filter out the corresponding gene columns from the full gene expression dataset.  
+    Expression_Integration.py: Expression setup.    
+    CausalCOT_AS.py: Executes the causal structure learning component under biological prior constraints.  
+
 
 
