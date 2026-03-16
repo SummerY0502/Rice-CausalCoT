@@ -68,7 +68,6 @@ def call_once(client: OpenAI, system_instruction: str, user_prompt: str) -> str:
     if out:
         return out
 
-    # 兼容性兜底
     chunks = []
     for item in getattr(resp, "output", []) or []:
         content = getattr(item, "content", None)
