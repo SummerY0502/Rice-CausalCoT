@@ -34,4 +34,4 @@ else:
 out_df = pd.concat([expr_gene, df[trait_cols]], axis=1)
 
 out_df.to_csv(out_path, index=False)
-print("输出保存至：", out_path)
+print("Output saved to:", out_path)
