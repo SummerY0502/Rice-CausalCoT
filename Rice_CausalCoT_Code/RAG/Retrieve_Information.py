@@ -119,7 +119,7 @@ async def force_set_page_size_100(page) -> bool:
                     return True
         except Exception:
             continue
-    # 兜底：直接改 URL
+
     url100 = set_query(page.url, nrow=100, offset=0)
     if url100 != page.url:
         await page.goto(url100, wait_until="domcontentloaded")
@@ -160,7 +160,6 @@ async def parse_current_page(page):
     for i in range(n):
         row = rows.nth(i)
 
-        # RAP_ID（若混杂则挑第一个匹配 Os##g#######）
         rap_id = await cell_text_by_class(row, "lid")
         if rap_id and not RAP_ID_RE.fullmatch(rap_id):
             lid_links = await row.locator("td.lid a").all_text_contents()
