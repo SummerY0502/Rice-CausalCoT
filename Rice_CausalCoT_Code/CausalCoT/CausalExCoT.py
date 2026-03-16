@@ -20,14 +20,12 @@ MAX_OUTPUT_TOKENS = 2000
 MAX_RETRIES = 6
 REASONING_EFFORT: Literal["minimal", "low", "medium", "high"] = "low"
 
-# 你的文件路径（按需改成你本地实际路径）
 STEP6_PATH = "outputs/step_6.txt"
 BIO_RESULT_CSV_PATH = "data/Bio_Result.csv"
 
 TARGET_GENE = "OS06G0665500"
 OUTPUT_CSV = "gene_causal_explanation.csv"
 
-# =============== JSON fenced block 抽取 ===============
 FENCE_RE = re.compile(r"```(?:json)?\s*(?P<body>[\s\S]*?)\s*```", re.IGNORECASE)
 
 def extract_fenced_json(text: str) -> Any:
@@ -77,7 +75,6 @@ def call_once(client: OpenAI, system_instruction: str, user_prompt: str) -> str:
     if out:
         return out
 
-    # 兼容性兜底：从 resp.output 拼 text
     chunks = []
     for item in getattr(resp, "output", []) or []:
         content = getattr(item, "content", None)
@@ -114,7 +111,6 @@ def call_with_retries(client: OpenAI, system_instruction: str, user_prompt: str)
             time.sleep(wait)
     raise RuntimeError(f"OpenAI request failed after {MAX_RETRIES} attempts: {last_err}")
 
-# ====================== 本地文件信息提取 ======================
 def read_text_file(path: str) -> str:
     if not os.path.exists(path):
         raise FileNotFoundError(f"File not found: {path}")
@@ -133,7 +129,6 @@ def extract_beta_from_step6(step6_text: str, gene_id: str) -> float:
     if m:
         return float(m.group(1))
 
-    # 兜底：不带引号也试试
     m2 = re.search(rf"{re.escape(gene_id)}:(-?\d+(?:\.\d+)?)", step6_text)
     if m2:
         return float(m2.group(1))
