@@ -24,7 +24,7 @@ COLUMNS = [
 def _extract_balanced_json_object(text: str) -> str:
     start = text.find("{")
     if start == -1:
-        raise ValueError("文本中找不到 JSON 起始符号 '{'")
+        raise ValueError("The JSON opening symbol cannot be found in the text. '{'")
 
     depth = 0
     in_str = False
@@ -52,7 +52,7 @@ def _extract_balanced_json_object(text: str) -> str:
                 if depth == 0:
                     return text[start:i+1]
 
-    raise ValueError("未能找到配平的 JSON 结束 '}'，文件可能被截断或格式异常")
+    raise ValueError("Failed to find a properly formatted JSON end. '}'，The file may be truncated or have an abnormal format.")
 
 def _strip_markdown_links_outside_strings_keep_commas(s: str) -> str:
     out = []
@@ -80,7 +80,6 @@ def _strip_markdown_links_outside_strings_keep_commas(s: str) -> str:
             i += 1
             continue
 
-        # 删除 [..](..) 但不动前后的逗号
         if ch == "[":
             j = s.find("]", i + 1)
             if j != -1 and j + 1 < len(s) and s[j + 1] == "(":
@@ -95,11 +94,6 @@ def _strip_markdown_links_outside_strings_keep_commas(s: str) -> str:
     return "".join(out)
 
 def _fix_missing_commas_between_fields(s: str) -> str:
-    """
-    针对一种常见错误：上一行以引号/数字/} / ] 结尾，
-    下一行以 "key": 开头，但中间缺逗号。
-    这个修复只在“字符串外部”做替换，尽量保守。
-    """
     lines = s.splitlines()
     fixed = []
     for idx in range(len(lines)):
@@ -112,18 +106,13 @@ def _fix_missing_commas_between_fields(s: str) -> str:
         cur = line.rstrip()
         nxt = lines[idx + 1].lstrip()
 
-        # 下一行看起来像字段开头："xxx":
         if re.match(r'^"\w[^"]*"\s*:', nxt):
-            # 当前行若以这些结尾且不以逗号结尾，则补逗号
             if cur and not cur.endswith(",") and re.search(r'("|\d|\}|\])\s*$', cur):
                 fixed[-1] = cur + ","
 
     return "\n".join(fixed)
 
 def _strip_markdown_links_outside_strings(s: str) -> str:
-    """
-    删除字符串外部出现的 Markdown 链接 [text](url)。
-    """
     out = []
     i = 0
     in_str = False
@@ -165,13 +154,11 @@ def _strip_markdown_links_outside_strings(s: str) -> str:
 
 
 def extract_json_from_text(text: str) -> dict:
-    # 优先从 ```json ... ``` 中提取，否则从全文提取
     m = re.search(r"```json\s*(.*?)(?:```|\Z)", text, flags=re.DOTALL)
     candidate = m.group(1) if m else text
 
     json_str = _extract_balanced_json_object(candidate)
 
-    # 先直接解析；失败则清洗 Markdown 链接后再解析
     try:
         return json.loads(json_str)
     except json.JSONDecodeError:
@@ -223,18 +210,18 @@ def gene_to_row(gene: dict) -> dict:
 
 def main():
     ap = argparse.ArgumentParser(description="Merge batch_XXX_raw.txt into one CSV (default current dir).")
-    ap.add_argument("--input_dir", default=".", help="包含 batch_XXX_raw.txt 的文件夹（默认当前目录）")
-    ap.add_argument("--output_csv", default="Bio_Result.csv", help="输出 CSV 路径（默认当前目录）")
-    ap.add_argument("--output_encoding", default="utf-8-sig", help="输出编码（默认 utf-8-sig，Excel 友好）")
+    ap.add_argument("--input_dir", default=".", help="The folder containing "batch_XXX_raw.txt" (default is the current directory)")
+    ap.add_argument("--output_csv", default="Bio_Result.csv", help="Output CSV path (default: current directory)")
+    ap.add_argument("--output_encoding", default="utf-8-sig", help="Output encoding (default utf-8-sig, Excel-friendly)")
     args = ap.parse_args()
 
     input_dir = Path(args.input_dir)
     if not input_dir.exists():
-        raise FileNotFoundError(f"input_dir 不存在: {input_dir}")
+        raise FileNotFoundError(f"input_dir does not exist: {input_dir}")
 
     batch_files = sorted(input_dir.glob("batch_*_raw.txt"), key=parse_batch_index)
     if not batch_files:
-        raise FileNotFoundError(f"在 {input_dir} 未找到 batch_*_raw.txt")
+        raise FileNotFoundError(f"The file "batch_*_raw.txt" was not found in {input_dir}")
 
     rows = []
     for fp in batch_files:
@@ -245,7 +232,7 @@ def main():
         if isinstance(genes, dict):
             genes = [genes]
         if not isinstance(genes, list):
-            raise ValueError(f"{fp.name}: genes 字段不是 list/dict，实际为 {type(genes)}")
+            raise ValueError(f"{fp.name}: The "genes" field is not a list/dictionary; it is actually {type(genes)}.")
 
         for g in genes:
             if isinstance(g, dict):
@@ -253,7 +240,7 @@ def main():
 
     out_df = pd.DataFrame(rows, columns=COLUMNS)
     out_df.to_csv(args.output_csv, index=False, encoding=args.output_encoding)
-    print(f"完成：汇总 {len(out_df)} 行，输出到 {Path(args.output_csv).resolve()}")
+    print(f"Completed: Summarized {len(out_df)} rows and output to {Path(args.output_csv).resolve()}")
 
 if __name__ == "__main__":
     main()
