@@ -1,6 +1,6 @@
 # Rice-CausalCoT
 ##Welcome to the code and materials repository of Rice-CausalCoT.
-<img src="https://github.com/user-attachments/assets/aab3e126-7add-45df-b684-b3e611c064f8" alt="TOTAL2" width="600">
+<img src="Rice_CausalCoT_Code/total12.png" alt="TOTAL2" width="600">
 
 
 ## Note
