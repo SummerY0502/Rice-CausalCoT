@@ -524,7 +524,6 @@ def format_step2_1(cands: List[Graph]) -> str:
     """
     cand_items = []
     for c in cands:
-        # 这里按示例格式：{E':(g1→t,g2→t,...)}
         edges_str = edges_to_str(c.edges)
         cand_items.append(f"{{E':({edges_str})}}")
 
@@ -626,7 +625,7 @@ def format_step6(fr: FitResult) -> str:
 
 def main():
     ensure_outdir()
-    expr = 'data/Expression_salt_AS_Gene.csv'        #data/merged_querysample_plus_INDICA.csv
+    expr = 'data/Expression_salt_AS_Gene.csv'    
     bio = 'data/Bio_Result.csv'
     ds = load_and_prepare(expr, bio)
 
