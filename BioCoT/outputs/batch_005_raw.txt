@@ -1,0 +1,55 @@
+```json
+{
+  "batch_meta": {"batch_index": 1, "num_genes": 1},
+  "genes": [
+    {
+      "rap_id": "OS01G0135700",
+      "gene_symbol": "OsCML16 ; CML16",
+      "gene_name": "CALMODULIN-LIKE PROTEIN 16",
+      "trait_name": "salt tolerance",
+      "description": "Calmodulin-like protein, Calcium signalling during abiotic stress, Promotion of root growth and drought tolerance (Os01t0135700-01)",
+      "position": "chr01:1931016..1931904 (- strand)",
+      "go": "Molecular Function: calcium ion binding (GO:0005509)",
+      "S1": {
+        "label": "S1b",
+        "reason": "The gene lies at ~1.93 Mb on rice chromosome 1, which does not overlap the major Saltol QTL interval (chr1 ~11.1–14.6 Mb) nor recent seedling-stage salinity QTLs mapped at ~38.3–38.95 Mb on chr1; therefore no credible overlap with main-effect salinity QTLs."
+      },
+      "S2": {
+        "label": "S2b",
+        "reason": "OsCML16 is a Ca2+-binding calmodulin-like sensor implicated in abiotic stress signaling and root growth/chilling response, but it is not established as a pivotal regulator within core rice salinity tolerance modules (e.g., SOS/CBL–CIPK, HKT1;5-mediated Na+ exclusion)."
+      },
+      "S3": {
+        "label": "S3b",
+        "reason": "While Ca2+ signaling pathways exist in rice, there is no specific pathway record linking OsCML16 directly to a rice salinity tolerance pathway component in KEGG/Plant Reactome."
+      },
+      "S4": {
+        "label": "S4b",
+        "reason": "No ortholog/homolog of OsCML16 with demonstrated causal effects on salt tolerance was found in related model crops; reported salinity phenotypes involve other CMLs (e.g., Arabidopsis CML13/14) or rice paralogs, not clear OsCML16 orthologs."
+      },
+      "S5": {
+        "label": "S5b",
+        "reason": "Searches in PubMed and Google Scholar for Oryza sativa and (salt/salinity/NaCl) with OsCML16/RAP_ID/Gene_Name found expression/interaction studies and drought/chilling phenotypes. No study with verified PMID/DOI demonstrating genetic manipulation of OsCML16 that causally alters rice salt tolerance.",
+        "pmids": [],
+        "dois": []
+      },
+      "Conservative": "No",
+      "reason": "Neither S5a nor the full combination (S1a+S2a+S3a+S4a) is satisfied; evidence for a direct causal role of OsCML16 in rice salinity tolerance is lacking.",
+      "Exploratory": "No",
+      "reason": "None of S1a, S2a, S3a, S4a, or S5a is met for OsCML16 with respect to rice salt tolerance.",
+      "summary": "OsCML16 (chr1:1.93 Mb) encodes a Ca2+-binding calmodulin-like sensor involved in abiotic stress signaling and root growth/chilling responses. It does not colocalize with major rice salinity QTLs (e.g., Saltol or recent chr1 QTLs near ~38 Mb), lacks pathway-level linkage to a defined rice salt tolerance module, has no homolog evidence directly tied to salt tolerance, and currently lacks rice genetic validation demonstrating a causal effect on salt tolerance. Overall, the evidence does not support OsCML16 as a causal determinant for rice salinity tolerance.",
+      "sources": [
+        {"title": "Chromosome-level genome assembly of IR64 NIL harboring Saltol (overview of Saltol QTL on chr1)", "url": "https://academic.oup.com/g3journal/article/14/4/jkad332/7609631", "year": 2024},
+        {"title": "QTL-Seq identified a genomic region on chromosome 1 for soil-salinity tolerance (qCMS1/qTN1 at ~38.3–38.95 Mb)", "url": "https://www.frontiersin.org/articles/10.3389/fpls.2024.1424689/full", "year": 2024},
+        {"title": "Mapping and Identification a Salt-Tolerant QTL in Haidao86 (qST1 at 30–36 Mb on chr1)", "url": "https://link.springer.com/article/10.1007/s00344-021-10507-9", "year": 2022},
+        {"title": "Ensembl Plants gene summary: OsCML16 (Os01g0135700)", "url": "https://plants.ensembl.org/Oryza_sativa/Gene/Summary?g=Os01g0135700", "year": 2025},
+        {"title": "FunPlantGenes: OsCML16 gene information and literature (includes PMIDs/DOIs)", "url": "http://funplantgenes.henau.edu.cn/gene/OsCML16", "year": 2024},
+        {"title": "Identification of novel OsCML16 target proteins and differential expression under abiotic stresses", "url": "https://www.sciencedirect.com/science/article/pii/S0176161720300559", "year": 2020},
+        {"title": "CALMODULIN-LIKE16 and PIN-LIKES7a cooperatively regulate rice seedling primary root elongation under chilling", "url": "https://academic.oup.com/plphys/article/195/2/1660/7604691", "year": 2024},
+        {"title": "Overexpression of OsERF48 causes regulation of OsCML16, enhancing root growth and drought tolerance", "url": "https://onlinelibrary.wiley.com/doi/10.1111/pbi.12716", "year": 2017},
+        {"title": "Q-TARO database description and genome viewer for rice QTLs", "url": "https://dbarchive.biosciencedbc.jp/en/qtaro/desc.html", "year": 2008},
+        {"title": "KEGG species page: Oryza sativa pathways (includes calcium signaling)", "url": "https://www.kegg.jp/kegg-bin/show_organism?menu_type=pathway_maps&org=osa", "year": 2026}
+      ]
+    }
+  ]
+}
+```[A novel rice calmodulin-like gene, OsMSR2, enhances drought and salt ...](https://link.springer.com/article/10.1007/s00425-011-1386-z)[Identification of novel OsCML16 target proteins and differential ...](https://www.sciencedirect.com/science/article/pii/S0176161720300559)[OsMSR2, a novel rice calmodulin-like gene, confers enhanced salt ...](http://www.cropj.com/xu_7_3_2013_368_373.pdf)

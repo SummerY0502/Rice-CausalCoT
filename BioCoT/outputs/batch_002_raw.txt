@@ -1,0 +1,50 @@
+```json
+{
+  "batch_meta": {"batch_index": 1, "num_genes": 1},
+  "genes": [
+    {
+      "rap_id": "Os01g0102800",
+      "gene_symbol": "CSB",
+      "gene_name": "COCKAYNE SYNDROME WD-REPEAT PROTEIN",
+      "trait_name": "salt tolerance",
+      "description": "Chromatin remodeling factor 704, Sucrose non-fermenting 2 (Snf2) family protein, Salt and drought stress response, Response to M. oryzae infection (Os01t0102800-01)",
+      "position": "chr01:151409..156449 (+ strand)",
+      "go": "Molecular Function: ATP binding (GO:0005524)",
+      "S1": {
+        "label": "S1b",
+        "reason": "The locus (~0.151–0.156 Mb on chr1 per Ensembl Plants) is outside the fixed main salt QTL on chr1 (11.1–14.6 Mb) and outside other reported chr1 salinity QTL peaks (e.g., ~38.3–38.95 Mb). Supported by rice salt QTL meta-review and recent QTL-seq studies."
+      },
+      "S2": {
+        "label": "S2b",
+        "reason": "Functional annotations indicate a CSB/ERCC6-like Snf2 chromatin-remodeling ATPase involved in DNA repair/transcriptional processes. While chromatin regulation can modulate stress-responsive genes, CSB is not an established pivotal regulator within central rice salinity tolerance modules (e.g., ion homeostasis SOS/HKT/NHX, ABA core TFs)."
+      },
+      "S3": {
+        "label": "S3b",
+        "reason": "Pathway resources emphasize CSB roles in transcription-coupled nucleotide excision repair and chromatin remodeling; no direct mapping to rice salinity-specific pathways (ion transport/ABA/salt tolerance modules) was found using RAP/Ensembl; hence no pathway-level support for salt tolerance."
+      },
+      "S4": {
+        "label": "S4b",
+        "reason": "No homolog/ortholog reports in plants demonstrating CSB/ERCC6 family causally influences salt tolerance traits; available plant salt-tolerance genes belong to other families (e.g., HKT, NHX, TFs)."
+      },
+      "S5": {
+        "label": "S5b",
+        "reason": "PubMed and Google Scholar searches with Oryza sativa + (salt/salinity/NaCl) + (CSB/Os01g0102800/Os01t0102800) did not identify any rice study with causal genetic validation (knockout/overexpression/complementation) directly altering salt tolerance for this gene.",
+        "pmids": [],
+        "dois": []
+      },
+      "Conservative": "No",
+      "reason": "Neither S5a nor the full set (S1a & S2a & S3a & S4a) is satisfied; evidence remains indirect or absent.",
+      "Exploratory": "No",
+      "reason": "None of S1a/S2a/S3a/S4a/S5a conditions are met for this gene–trait pair.",
+      "summary": "Os01g0102800 (CSB) lies near the start of chr1, far from major rice salinity QTL intervals, including the fixed main chr1 QTL (11.1–14.6 Mb). Its CSB/ERCC6-like Snf2 ATPase function is consistent with chromatin remodeling and DNA repair, but there is no direct pathway assignment to rice salt tolerance modules, no supportive ortholog evidence, and no rice genetic validation showing altered salt tolerance upon manipulating this gene. Overall, current evidence does not support a causal role of CSB in Oryza sativa salt tolerance.",
+      "sources": [
+        {"title": "Gene: CSB (Os01g0102800) – Ensembl Plants (location chr1:152,853–156,449)", "url": "https://plants.ensembl.org/Oryza_sativa/Gene/Summary?g=Os01g0102800", "year": 2022},
+        {"title": "Salt tolerance in rice: seedling and reproductive stage QTL mapping come of age (meta-QTL review)", "url": "https://link.springer.com/article/10.1007/s00122-021-03885-6", "year": 2021},
+        {"title": "QTL-Seq identified a genomic region on chromosome 1 for soil-salinity tolerance (JK × IR29; chr1 ~38.3–38.95 Mb)", "url": "https://www.frontiersin.org/articles/10.3389/fpls.2024.1424689/full", "year": 2024},
+        {"title": "Current and emerging roles of Cockayne syndrome group B (CSB) protein (mechanistic review)", "url": "https://academic.oup.com/nar/article/49/5/2418/6135889", "year": 2021},
+        {"title": "Salt-Responsive Genes are Differentially Regulated at Chromatin Levels in Rice (epigenetic context under salt)", "url": "https://academic.oup.com/pcp/article/60/8/1790/5488388", "year": 2019}
+      ]
+    }
+  ]
+}
+```[OsCHR728 encodes a chromatin remodeling factor involved in seed size ...](https://www.sciencedirect.com/science/article/pii/S0378111925001842)[Rice requires a chromatin remodeler for Polymerase IV-small interfering ...](https://academic.oup.com/plphys/article/194/4/2149/7441630)[OlCHR, encoding a chromatin remodeling factor, is a killer causing ...](https://www.cell.com/iscience/fulltext/S2589-0042(24)00983-0)
