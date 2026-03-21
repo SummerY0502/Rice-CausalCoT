@@ -20,9 +20,6 @@ This project depends on several third-party Python packages, including `playwrig
 
 ### Environment Setup
 
-It is recommended to use a virtual environment.
-
-**macOS / Linux**
 ```bash
 python -m venv .venv
 source .venv/bin/activate
