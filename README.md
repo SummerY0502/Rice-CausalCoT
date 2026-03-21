@@ -62,6 +62,8 @@ export OPENAI_API_KEY="YOUR_API_KEY"
 
 Replace the placeholder values in the scripts with your actual API key and API base URL before running the project.
 
+---
+
 ## Project Overview
 
 This project consists of three major components: `RAG`, `BioCoT`, and `CausalCoT`. Together, these modules support gene-related knowledge retrieval, a priori reasoning, and causal reasoning analysis.
