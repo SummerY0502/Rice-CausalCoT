@@ -26,14 +26,6 @@ Install the required Python packages with:
 pip install -U pandas openai playwright
 ```
 
-If you want to pin dependencies in a `requirements.txt` file, you can include:
-
-```txt
-pandas
-openai
-playwright
-```
-
 ### Install Playwright Browsers
 
 Because this project uses `playwright.async_api`, you also need to install the browser engines:
