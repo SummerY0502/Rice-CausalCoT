@@ -38,26 +38,85 @@ If the project calls the OpenAI API, set the OPENAI_API_KEY environment variable
 Windows PowerShell:  
 setx OPENAI_API_KEY "YOUR_API_KEY"  
 
-## File Structure
-1.	RAG/: Retrieval-Augmented Generation component.
-    Gene_Intersection: Intersection of genes in functional databases and genes in the dataset.  
-    Retrieve_information: Retrieves associated genes from functional databases.  
-2. `BioCoT/`
-**Description**  
-This module implements the a priori reasoning Chain-of-Thought (CoT) component.
+## Project Overview
 
-- `GPT_BioCoT.py`: Generates multidimensional reasoning evidence based on RAG embeddings and stores the results in `outputs/`.
-- `Merge_BioCoT_Result.py`: Merges the reasoning results of all genes into a unified output file, `Bio_Result.csv`.
+This project consists of three major components: `RAG`, `BioCoT`, and `CausalCoT`. Together, these modules support gene-related knowledge retrieval, a priori reasoning, and causal reasoning analysis.
+
+- **RAG** retrieves gene-associated information from functional databases.
+- **BioCoT** generates and merges a priori reasoning evidence based on the retrieved knowledge.
+- **CausalCoT** performs causal reasoning and downstream causal analysis.
+
+---
+
+## File Structure and Usage
+
+### 1. `RAG/`
+**Description**  
+This module implements the Retrieval-Augmented Generation (RAG) component. It is responsible for retrieving gene-related information from functional databases and providing prior knowledge support for downstream reasoning modules.
+
+**Main file**
+- `Retrieve_information.py`: Retrieves associated gene information from functional databases.
+
+**Run**
+```bash
+cd RAG
+python Retrieve_information.py
+```
+
+---
+
+### 2. `BioCoT/`
+**Description**  
+This module implements the a priori reasoning Chain-of-Thought (CoT) component. It generates multidimensional reasoning evidence based on the retrieved knowledge and integrates the results into a unified output file.
+
+**Main files**
+- `GPT_BioCoT.py`: Generates multidimensional reasoning evidence and saves the outputs.
+- `Merge_BioCoT_Result.py`: Merges the reasoning results for all genes into a unified file, such as `Bio_Result.csv`.
 
 **Run**
 ```bash
 cd BioCoT
 python GPT_BioCoT.py
-python Merge_BioCoT_Result.py.  
-3.	CausalStruCoT/: Causal Structure Learning CoT component.
-    Expression_Screening.py: Using gene IDs, filter out the corresponding gene columns from the full gene expression dataset.  
-    Expression_Integration.py: Expression setup.    
-    CausalCOT_AS.py: Executes the causal structure learning component under biological prior constraints.  
+python Merge_BioCoT_Result.py
+```
+
+---
+
+### 3. `CausalCoT/`
+**Description**  
+This module implements the causal reasoning component. It is used to perform causal structure learning and causal explanation based on the processed gene information and reasoning outputs.
+
+**Main files**
+- `CausalStruCoT.py`: Performs causal structure reasoning.
+- `CausalExCoT.py`: Performs causal explanation reasoning.
+
+**Run**
+```bash
+cd CausalCoT
+python CausalStruCoT.py
+python CausalExCoT.py
+```
+
+---
+
+## Recommended Execution Order
+
+To run the full pipeline, execute the modules in the following order:
+
+```bash
+cd RAG
+python Retrieve_information.py
+
+cd ../BioCoT
+python GPT_BioCoT.py
+python Merge_BioCoT_Result.py
+
+cd ../CausalCoT
+python CausalStruCoT.py
+python CausalExCoT.py
+```
+
+
 
 
 
