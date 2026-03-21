@@ -4,39 +4,79 @@
 
 
 ## Note
-- The code in this repository is primarily intended to illustrate implementation concepts and interface usage, serving as a reference for learning and research.
+
+The code in this repository is primarily intended to illustrate implementation concepts and interface usage, and is provided as a reference for learning and research.
+
+---
+
 ## Installation
-This project depends on a few third-party Python packages (e.g., playwright, pandas, openai). Everything else in the imports (such as os, re, json, csv, pathlib, typing, etc.) is part of the Python standard library and does not require installation.
-##Requirements
-•	Python 3.9+ (recommended: 3.10 / 3.11)  
-•	pip  
-##Setup (recommended: virtual environment)  
-macOS / Linux:  
-1.	Create a virtual environment:  
-python -m venv .venv  
-2.	Activate it:  
-source .venv/bin/activate  
-Windows PowerShell:  
-1.	Create a virtual environment:  
-python -m venv .venv  
-2.	Activate it:  
-.venv\Scripts\Activate.ps1  
-##Install Python dependencies  
-Run:  
-pip install -U pandas openai playwright  
-Optional: If you want to pin dependencies in requirements.txt, add:  
-•	pandas  
-•	openai  
-•	playwright  
-##Install Playwright browsers  
-Because this project uses playwright.async_api, you also need to install the browser engines:  
-playwright install  
-On Linux, if system dependencies are missing:  
-playwright install-deps  
-##Configure OpenAI API key (if applicable)  
-If the project calls the OpenAI API, set the OPENAI_API_KEY environment variable.  
-Windows PowerShell:  
-setx OPENAI_API_KEY "YOUR_API_KEY"  
+
+This project depends on several third-party Python packages, including `playwright`, `pandas`, and `openai`. Other imported modules such as `os`, `re`, `json`, `csv`, `pathlib`, and `typing` are part of the Python standard library and do not require additional installation.
+
+### Requirements
+
+- Python 3.9+ (recommended: 3.10 or 3.11)
+- `pip`
+
+### Environment Setup
+
+It is recommended to use a virtual environment.
+
+**macOS / Linux**
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+**Windows PowerShell**
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+```
+
+### Install Dependencies
+
+Install the required Python packages with:
+
+```bash
+pip install -U pandas openai playwright
+```
+
+If you want to pin dependencies in a `requirements.txt` file, you can include:
+
+```txt
+pandas
+openai
+playwright
+```
+
+### Install Playwright Browsers
+
+Because this project uses `playwright.async_api`, you also need to install the browser engines:
+
+```bash
+playwright install
+```
+
+On Linux, if system dependencies are missing, run:
+
+```bash
+playwright install-deps
+```
+
+### Configure OpenAI API Key
+
+If the project calls the OpenAI API, set the `OPENAI_API_KEY` environment variable before running the scripts.
+
+**Windows PowerShell**
+```powershell
+setx OPENAI_API_KEY "YOUR_API_KEY"
+```
+
+**macOS / Linux**
+```bash
+export OPENAI_API_KEY="YOUR_API_KEY"
+``` 
 
 ## Project Overview
 
@@ -99,19 +139,12 @@ python CausalExCoT.py
 
 ---
 
-## Recommended Execution Order
+## Quick Validation
 
-To run the full pipeline, execute the modules in the following order:
+To quickly validate the causal reasoning component, you can directly run:
 
 ```bash
-cd RAG
-python Retrieve_information.py
-
-cd ../BioCoT
-python GPT_BioCoT.py
-python Merge_BioCoT_Result.py
-
-cd ../CausalCoT
+cd CausalCoT
 python CausalStruCoT.py
 python CausalExCoT.py
 ```
