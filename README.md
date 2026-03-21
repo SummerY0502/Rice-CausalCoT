@@ -34,9 +34,16 @@ Because this project uses `playwright.async_api`, you also need to install the b
 playwright install
 ```
 
-### Configure OpenAI API Key
+### Configure OpenAI API
 
-If the project calls the OpenAI API, set the `OPENAI_API_KEY` environment variable before running the scripts.
+If the project calls the OpenAI API, you can either set the `OPENAI_API_KEY` environment variable or directly modify the following parameters in `GPT_BioCoT.py`, `CausalStruCoT.py`, and `CausalExCoT.py`:
+
+```python
+api_key="YOUR_API_KEY",
+base_url="YOUR_API_URL"
+```
+
+**Option 1: Set environment variable**
 
 **Windows PowerShell**
 ```powershell
@@ -46,7 +53,18 @@ setx OPENAI_API_KEY "YOUR_API_KEY"
 **macOS / Linux**
 ```bash
 export OPENAI_API_KEY="YOUR_API_KEY"
-``` 
+```
+
+**Option 2: Modify the code directly**
+
+Open `GPT_BioCoT.py`, `CausalStruCoT.py`, and `CausalExCoT.py`, then replace:
+
+```python
+api_key="YOUR_API_KEY",
+base_url="YOUR_API_URL"
+```
+
+with your actual API key and API base URL.
 
 ## Project Overview
 
