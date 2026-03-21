@@ -34,12 +34,6 @@ Because this project uses `playwright.async_api`, you also need to install the b
 playwright install
 ```
 
-On Linux, if system dependencies are missing, run:
-
-```bash
-playwright install-deps
-```
-
 ### Configure OpenAI API Key
 
 If the project calls the OpenAI API, set the `OPENAI_API_KEY` environment variable before running the scripts.
