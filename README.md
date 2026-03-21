@@ -18,12 +18,6 @@ This project depends on several third-party Python packages, including `playwrig
 - Python 3.9+ (recommended: 3.10 or 3.11)
 - `pip`
 
-### Environment Setup
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-```
 
 **Windows PowerShell**
 ```powershell
