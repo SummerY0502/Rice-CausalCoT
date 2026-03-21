@@ -36,7 +36,10 @@ playwright install
 
 ### Configure OpenAI API
 
-If the project calls the OpenAI API, you can either set the `OPENAI_API_KEY` environment variable or directly modify the following parameters in `GPT_BioCoT.py`, `CausalStruCoT.py`, and `CausalExCoT.py`:
+If the project calls the OpenAI API, you can configure it in either of the following ways:
+
+1. Set the `OPENAI_API_KEY` environment variable.
+2. Directly modify the following parameters in `GPT_BioCoT.py`, `CausalStruCoT.py`, and `CausalExCoT.py`:
 
 ```python
 api_key="YOUR_API_KEY",
@@ -57,14 +60,7 @@ export OPENAI_API_KEY="YOUR_API_KEY"
 
 **Option 2: Modify the code directly**
 
-Open `GPT_BioCoT.py`, `CausalStruCoT.py`, and `CausalExCoT.py`, then replace:
-
-```python
-api_key="YOUR_API_KEY",
-base_url="YOUR_API_URL"
-```
-
-with your actual API key and API base URL.
+Replace the placeholder values in the scripts with your actual API key and API base URL before running the project.
 
 ## Project Overview
 
