@@ -1,0 +1,381 @@
+RAP_ID,Gene_Symbol,S1,S2,S2_keyword,S3,S3_keywords,S4,S4_note,S5,S5_keyinfo,Conservative,Exploratory
+OS01G0282800,OsTUB1,S1b,S2a,microtubule stabilization; Kinesin13A interaction; OsHKT1;5 trafficking; Na+ homeostasis,S3b,cytoskeleton reorganization; ion transporter localization,S4b,"tubulin genes and microtubule reorganization linked to salt tolerance in Arabidopsis, but no one-to-one ortholog of OsTUB1 functionally proven",S5a,Overexpression and loss-of-function of OsTUB1 alter rice survival under salt stress by stabilizing microtubules and maintaining plasma-membrane Na+ transporter OsHKT1;5; gene interacts with Kinesin13A,Yes,No
+OS01G0534900,OsOSCA1.1,S1b,S2a,hyperosmolality-gated Ca2+ channel; osmotic and salt-stress Ca2+ influx; stomatal closure,S3a,osmotic stress signalling; Ca2+-mediated signalling; ABA-related stomatal regulation,S4a,Arabidopsis OSCA1 (ortholog of OSCA1.1) mediates osmotic-stress-evoked Ca2+ signals essential for osmosensing and salt responses; OSCA1.1 is OSCA1 homologue in rice,S5a,"Rice ososca1.1 mutants and OSCA1.1-overexpression lines show altered Ca2+ signals, stomatal movement and tolerance under hyperosmotic and salt stress, demonstrating role in salt-stress sensing",Yes,Yes
+OS03G0386000,OsSRWD5,S1b,S2b,salt-responsive WD40 protein; expression induced by salt; molecular mechanism not experimentally defined,S3b,-,S4b,"WD40 proteins implicated in stress responses in other species, but no high-confidence ortholog of SRWD5 with proven salinity function",S5b,Only expression and annotation data as a salt-responsive WD40 protein; no published rice gain- or loss-of-function experiments directly testing salt tolerance,No,No
+OS04G0620700,OsNUC1,S1b,S2a,nucleolin; rRNA processing; photosynthesis adaptation; oxidative-stress protection under salinity,S3b,nucleolar function; translational control; photosynthetic protection,S4b,"Nucleolin-like proteins characterized in Arabidopsis and other plants, but salt-tolerance function mainly shown for rice OsNUC1 itself rather than clear one-to-one orthologs",S5a,"Overexpression of a partial fragment of OsNUC1 in rice improves growth, photosynthetic performance and survival under NaCl; OsNUC1 splice variants associated with salt tolerance QTL signals",Yes,Yes
+OS05G0488800,OsSIRP1,S1b,S2b,RING-type E3 ubiquitin ligase; reported negative regulator of responses to salt mainly in heterologous Arabidopsis system,S3b,ubiquitin–proteasome system (inferred); no validated salt pathway node in rice,S4b,Homologous RING E3 ligases affect abiotic stress in several species but no one-to-one ortholog with salt-tolerance phenotype firmly linked to OsSIRP1,S5a,Available studies largely analyze OsSIRP1 via overexpression in Arabidopsis; no clear report of rice OsSIRP1 mutants or overexpression lines with quantified salinity phenotypes,Yes,No
+OS06G0606000,OsSOS2/OsCIPK24,S1b,S2a,CBL4-interacting protein kinase; activates plasma-membrane Na+/H+ antiporter OsSOS1; core SOS Ca2+–CBL–CIPK module for Na+ extrusion,S3a,SOS signalling pathway; Ca2+-dependent salt-stress signalling; Na+ efflux and ionic homeostasis,S4a,"Arabidopsis SOS2, the clear ortholog of OsSOS2/OsCIPK24, is genetically proven to control salt tolerance; the SOS pathway is conserved between Arabidopsis and rice",S5a,"Rice OsSOS2 function mainly inferred from heterologous assays (yeast, Arabidopsis) and expression/QTL association; no definitive rice mutant/overexpression study with quantified salinity phenotype located",Yes,Yes
+OS07G0679000,OsHAK9,S1b,S2a,high-affinity K+ transporter; maintains K+/Na+ balance in germinating seeds; regulates GA metabolism via OsGA2ox7,S3a,K+ transport; K+/Na+ homeostasis; gibberellin signalling during seed germination under salt,S4b,"Other HAK transporters in wheat, maize, and Arabidopsis influence salt tolerance, but OsHAK9 does not yet have a clearly defined one-to-one ortholog with conserved salt function",S5a,MutMap-derived oshak9 mutants and complementation/overexpression lines show altered seed germination and K+ flux under NaCl via OsGA2ox7-mediated GA catabolism; disruption reduces salt-germination tolerance,Yes,Yes
+OS10G0456800,DCA1,S1b,S2a,CHY zinc-finger E3 ligase; transcriptional co-activator of DST; regulates H2O2-scavenging peroxidase Prx24; controls stomatal density/closure,S3b,ROS homeostasis; stomatal regulation; ABA-related drought/salt responses (not a canonical KEGG salt node),S4b,DST-like zinc finger factors exist in other cereals but conserved DCA1 orthologs with demonstrated salinity roles have not been clearly reported,S5a,"Rice dca1 mutant and overexpression lines show altered H2O2 levels, stomatal traits and improved or reduced tolerance to both salt and drought; DCA1–DST complex directly modulates Prx24 expression",Yes,Yes
+OS10G0518200,OsCYB5-2,S1b,S2a,ER-localized cytochrome b5; interacts with OsHAK21; regulates K+ uptake and Na+ influx; maintains cellular K+/Na+ homeostasis under salt,S3a,K+ transport pathway (OsHAK21–OsCYB5-2 module); ion homeostasis under salinity,S4b,"Cyb5 proteins participate in sugar or ion-related signalling in Arabidopsis and other species, but explicit salt-tolerance phenotypes of clear OsCYB5-2 orthologs remain limited",S5a,"Rice lines with altered OsCYB5-2 expression exhibit changes in OsHAK21-mediated K+ uptake, K+/Na+ ratios and survival under salt; PNAS study demonstrates ER-localized OsCYB5-2 is required for high-affinity K+ transport in response to salt stress",Yes,Yes
+OS01G0102800,OsCHR704,S1b,S2b,"Snf2-family chromatin remodeller; expression responsive to some stresses, but no direct salt-tolerance mechanism defined",S3b,epigenetic regulation (inferred); not mapped to specific salt-stress signalling pathway,S4b,"Snf2/BRAHMA-like chromatin remodellers in Arabidopsis regulate development and stress gene expression, but no direct salt-tolerance phenotype assigned to the CHR704 ortholog(s)",S5b,Studies so far provide expression profiling and family-level analyses of Snf2 genes; no OsCHR704-focused rice mutant or overexpression study with salt phenotyping identified,No,No
+OS01G0104100,"OsNCA1a, OsCOIN",S1b,S2a,ROS homeostasis; catalase activation; stress-responsive zinc finger/NCA1 chaperone,S3b,ROS detoxification / antioxidant system,S4a,Arabidopsis NCA1 ortholog regulates catalase activity and nca1 mutants show hypersensitivity to salinity via impaired H2O2 scavenging,S5a,nca1a/nca1b double mutants show very low catalase activity and increased sensitivity under salinity; OsCOIN overexpression increases tolerance to salt with higher proline and antioxidant capacity,Yes,Yes
+OS01G0124401,"RBBI3-3, OsBBPI, OsBBTI5",S1b,S2a,Bowman–Birk serine protease inhibitor; modulation of ROS-scavenging enzymes (APX2) and stress signalling,S3b,Protease inhibitor / ROS signalling (non-canonical),S4b,No high-confidence ortholog with genetically proven salt-tolerance function identified; BBI-type inhibitors in other crops are mostly studied at expression level,S5a,"OsBBTI5 RNAi plants have higher survival and biomass under NaCl with lower H2O2/MDA and altered antioxidant gene expression, indicating OsBBTI5 negatively regulates rice salt tolerance",Yes,No
+OS01G0141000,"AP2/EREBP129, AP2/EREBP#129, OsRAV2, RAV2, OsRAV9, OsTEM1, OsRAV9/OsTEM1",S1b,S2b,AP2/B3 (RAV) transcription factor; salt-inducible promoter but no rice functional data,S3b,Potential transcriptional regulator; no defined salt pathway placement in rice,S4a,Arabidopsis RAV1/RAV2 orthologs modulate drought and salt responses; rav1/rav2 mutants and overexpression lines show altered salt tolerance independently of ABA,S5b,"OsRAV2 promoter GT-1 element is required for salt-induced expression, but no OsRAV2 mutant or overexpression lines with salt-tolerance phenotypes have been reported in rice",No,No
+OS01G0141100,"OsSKD1, SKD1",S1b,S2b,AAA-type ATPase SKD1/VPS4; ESCRT-mediated endosomal protein sorting; salt-induced expression,S3b,"Endosomal sorting / vesicle trafficking, potentially influencing ion transporter turnover",S4a,"Maize ZmSKD1 ortholog overexpression in tobacco enhances salt and drought tolerance and lowers ROS, and reduced SKD1 expression in Arabidopsis decreases salt tolerance, supporting conserved SKD1–ESCRT roles in salt stress",S5b,"OsSKD1 is characterized as an AAA-type ATPase in vesicle trafficking and is salt responsive, yet rice OsSKD1 gain- or loss-of-function effects on salt tolerance have not been demonstrated",No,No
+OS01G0159800,OsbHLH035,S1b,S2a,"bHLH transcription factor; regulates ABA metabolic genes and OsHKT1 genes, affecting seed germination and ion homeostasis under salt",S3a,ABA signalling and downstream ion transport (HKT1;1/1;3/1;5) in salt-stress recovery,S4b,"bHLH TFs in other species (e.g. Arabidopsis bHLH122, OrbHLH001 from wild rice) affect salt/drought tolerance, but no clear one-to-one ortholog of OsbHLH035 with proven salt-tolerance function",S5a,"OsbHLH035 mutants are hypersensitive during germination and recovery from salt, while complemented lines restore tolerance; OsbHLH035 controls ABA metabolic genes and OsHKT1 family expression",Yes,No
+OS01G0182200,OsSIP1,S1b,S2b,SIP1-type aquaporin; ER-localized water/H2O2 channel induced by salt/osmotic stress but without in planta rice functional validation,S3b,Water and H2O2 transport; putative role in ER redox/osmotic adjustment,S4b,"SIP aquaporins in Arabidopsis and other crops show stress-responsive expression, but robust genetic evidence linking specific SIP1 orthologs to salt-tolerance phenotypes is lacking",S5b,"OsSIP1 shows ER localization, transports water/H2O2 and is induced by salt/osmotic stress, but no OsSIP1 rice mutants or overexpressors with altered salt tolerance are available",No,No
+OS01G0184100,"OsHsp18.0, Oshsp18.0-CII",S1b,S2a,Class II small heat shock protein; molecular chaperone maintaining protein homeostasis and modulating defense/SA signalling under abiotic stress,S3b,General stress protein homeostasis / heat shock response,S4a,"Class II sHSP orthologs in other species confer tolerance to salt and other stresses when overexpressed, indicating a conserved chaperone-based mechanism",S5a,"OsHsp18.0-CII overexpression enhances, and RNAi reduces, rice tolerance to NaCl and heat; the protein accumulates under stress and limits protein aggregation and cell death",Yes,Yes
+OS01G0307500,"SKC1, OsHKT1",S1a,S2a,"Na+ transporter HKT1;5, mediating Na+ unloading from xylem to maintain high K+/Na+ in leaves and reproductive tissues",S3a,Ion homeostasis / Na+ exclusion pathway (qSKC1/SKC1; Saltol-linked Na+ transport),S4a,"HKT1;5 orthologs in wheat and barley (e.g. Nax2, TmHKT1;5-A, HvHKT1;5) control leaf Na+ accumulation and salinity tolerance, demonstrating conserved function of HKT1;5 transporters in cereal salt tolerance",S5a,Allelic variation and transgenic analyses of SKC1/OsHKT1;5 demonstrate that enhanced Na+ retrieval from xylem lowers shoot Na+ and improves growth and yield under saline conditions,Yes,Yes
+OS01G0369000,OsCUL1-1,S1b,S2b,"Cullin 1 scaffold of SCF E3 ubiquitin ligases; broadly involved in protein ubiquitination, with salt/ABA-responsive expression but no direct functional link to salt tolerance",S3b,Ubiquitin–proteasome system / hormone signalling (indirect),S4b,"CUL1 orthologs in Arabidopsis and crops are essential for development and hormone signalling, but specific evidence that CUL1 orthologs modulate salt tolerance phenotypes is limited or indirect",S5b,"OsCUL1 transcripts respond to ABA and salt and interact with BTB-MATH proteins linked to salt tolerance, but direct OsCUL1-1 genetic evidence for altered salt tolerance is lacking",No,No
+OS01G0506100,OsSOAR1,S1b,S2a,PPR-domain RNA-binding protein; regulates ABA signalling and stress-related mRNA processing/alternative splicing,S3a,ABA signalling and stress-responsive RNA processing pathway,S4a,"Arabidopsis SOAR1 ortholog regulates ABA sensitivity and salt tolerance; overexpression and loss-of-function lines show altered ABA responses and salinity tolerance, and AtSOAR1 transgenes function in rice",S5a,Overexpression of OsSOAR1 or AtSOAR1 in rice increases tolerance to salt and ABA; SOAR1 modulates ABA-responsive gene expression and pre-mRNA splicing in stress pathways,Yes,Yes
+OS01G0536000,OsCIPK8,S1b,S2b,CBL–CIPK; SOS-interaction (Arabidopsis CIPK8),S3b,SOS pathway (Arabidopsis CBL10–CIPK8–SOS1),S4a,Arabidopsis CIPK8 with CBL10–SOS1 complex modulates salt tolerance; conserved CBL–CIPK–SOS core,S5b,No rice-genetic causal test for OsCIPK8 found; expression upregulated under salt,No,No
+OS01G0549700,OsBAT1/UAP56,S1b,S2b,RNA helicase; mRNA export/splicing; ABA/salt inducible,S3b,RNA processing—not a core salt pathway,S4b,No high-confidence ortholog with causal salt phenotype,S5b,Reports of overexpression tolerance exist mainly as grey literature; peer-reviewed in planta causal data in rice unclear,No,No
+OS01G0571300,OsHsfA7,S1b,S2b,HSF–HSP; ROS/chaperone; stress transcription,S3b,Heat-shock/ABA-responsive networks (not core salt transport),S4b,"HSF roles conserved, but no ortholog single-ortholog causal salt evidence used",S5a,Overexpression in rice increases salt and drought tolerance; improved survival and reduced MDA/ion leakage,Yes,Yes
+OS01G0575200,OsbHLH024,S1b,S2b,bHLH TF; negative regulator of salt (KO improves tolerance),S3b,TF-mediated ROS/ion homeostasis regulation,S4b,No cross-species ortholog causal evidence required,S5a,"CRISPR/Cas9 knockout improves salt resistance; increased chlorophyll, antioxidant activity, reduced ROS",Yes,Yes
+OS01G0612600,OsSIDP361,S1b,S2a,DUF1644 stress-induced protein; enhances salt tolerance when overexpressed,S3b,ABA/ROS-related downstream effects (not annotated core pathway),S4a,Family members (OsSIDP301 RNAi improves salt tolerance) and DUF1644 conserved function; cross-refs support conserved mechanism,S5a,Rice overexpression lines show enhanced salt tolerance; upregulation of stress genes; DOI available,Yes,Yes
+OS01G0615100,OCPI2 (OsCPI2/OsSRO1a),S1b,S2b,Serine protease inhibitor; OsMAR1–OCPI2 axis under salt,S3b,UPS/Protease-inhibitor regulation; not core ion pathway,S4b,Heterologous Arabidopsis OX shows salt tolerance but not ortholog-based evidence,S5b,No rice-gene causal salt phenotype publication; evidence mainly heterologous and regulatory,No,No
+OS01G0622600,OsCDPK1,S1b,S2b,Ca2+-dependent protein kinase; Ca2+/ABA signaling,S3b,ABA/Ca2+ signaling networks (others like CPK4/7/12 validated),S4a,CDPK orthologs/paralogs (OsCPK4/7/12/5/13) causally improve salt tolerance; conserved CDPK salt module,S5b,No direct OsCDPK1 causal salt paper found in rice,No,No
+OS01G0624500,OsSGT1,S1b,S2b,SCF/RAR1/SGT1 chaperone complex; stress integration,S3b,Defense/ABA crosstalk; interacts with OsSAPK9,S4a,Wheat TaSGT1 enhances salt tolerance; conserved SGT1 function in stress,S5a,"Rice studies show interaction (e.g., with SAPK9) but lack direct OsSGT1 manipulation with salt phenotype",Yes,No
+OS01G0648000,OsAKT1,S1b,S2b,K+ uptake channel; ion homeostasis,S3b,K+ transport; salt-affected expression but not core determinant,S4b,Direct ortholog evidence for salt causality limited; OsHAK1 instead validated,S5b,Overexpression impacts K nutrition and drought; salt effect debated/not significant in rice OX lines,No,No
+OS01G0658900,OSBZ8/OsbZIP05/OsGBF1,S1b,S2b,ABRE-binding bZIP; ABA-responsive; salt-inducible expression,S3b,ABA signaling (general),S4b,"Many bZIPs (OsbZIP23/71) show salt tolerance, but not OSBZ8 orthologs",S5b,Expression correlates with salt-tolerant cultivars; no direct genetic causality for OSBZ8,No,No
+OS01G0692700,OsSIRH2-23 (OsRFPH2-23),S1b,S2a,RING-H2 E3 连接酶; 26S 蛋白酶体; 盐诱导,S3a,泛素-26S 蛋白酶体调控(UPS),S4a,同家族 OsSIRH2-14 在稻本体增强耐盐；E3-离子通道调控保守,S5a,OsSIRH2-23 为盐诱导 RING E3；功能研究显示提高盐胁迫不敏感性（稻本体）；UPS机制,Yes,No
+OS01G0693400,OsRAV11/OsRAV1 (AP2/ERF-RAV),S1b,S2a,RAV 转录因子; 激素通路; 发芽期耐盐,S3b,激素/表型级通路（非盐核心离子模块）,S4b,RAV 家族广泛，但缺乏跨物种一一正交的因果迁移,S5a,Rice 2024：OsRAV1/11 影响种子活力与发芽期耐盐；单倍型关联与遗传证据,Yes,No
+OS01G0699100,OsMAPKKK63,S1b,S2b,MAPKKK–MKK (MKK1/MKK6) 上游激酶; 盐诱导,S3a,MAPK 级联与盐应答,S4a,MAPK 途径在多物种保守；稻/综述显示该基因与盐应答相关,S5a,未检得对 OsMAPKKK63 的稻本体 KO/OE 直接改变耐盐的论文（报道多为表达/互作）,Yes,Yes
+OS01G0720700,OsSAT1 (Serine acetyltransferase 1),S1b,S2b,半胱氨酸生物合成; 硫代谢; 表达受盐诱导,S3b,代谢适应（非核心离子/信号节点）,S4b,跨物种 SAT 家族多与逆境相关，但缺少高置信正交+因果验证,S5b,稻中多为生物信息学/表达分析；缺少直接因果耐盐实验,No,No
+OS01G0733200,OsHsfC1b,S1b,S2a,HSF 转录因子; ABA 依赖耐盐; 胞核定位,S3a,ABA 介导的胁迫应答模块,S4a,HSF 模块在作物保守；他物种与稻内均支持,S5a,过表达提高耐盐/渗透胁迫耐受；遗传与生理指标完善,Yes,Yes
+OS01G0734600,OsUGT706E1 (OsUGT1),S1b,S2a,UDP-糖基转移酶; 阿苯苷(arbutin)代谢; GRF7 模块,S3b,次生代谢/抗逆代谢通路,S4b,UGT 家族广泛；本基因稻内直接证据为主,S5a,Plant Cell 2024：OsGRF7–UGT706E1 调控阿苯苷代谢，过表达提高耐盐；RAP-DB/Oryzabase 注释为正调控,No,No
+OS01G0752500,OsERF922 (ERF92),S1b,S2a,AP2/ERF 负调控; ABA 诱导; 盐敏感负调节因子,S3a,ABA/乙烯信号—上游转录调控,S4a,ERF 模块在作物保守；多物种有因果证据,S5a,JXB 2012：过表达降低而 RNAi/突变提高耐盐；CRISPR报道用于稻瘟病亦旁证该位点可编辑,Yes,Yes
+OS01G0804400,OsCYP94D7,S1b,S2b,CYP94 家族; JA-Ile 氧化代谢; 盐应答相关,S3a,茉莉酸信号衔接耐盐（家族水平证据）,S4b,家族成员 CYP94C2b 过表达提升耐盐，但非本基因正交同源,S5b,未见对 CYP94D7 稻本体 KO/OE 改变盐耐；仅家族/通路证据,No,No
+OS01G0811300,OsSUVH7 / SDG709,S1b,S2b,SET 结构域甲基转移酶; H3K9 甲基化; 表观调控,S3b,表观遗传调控（广义）,S4b,尚缺该位点的跨物种正交因果耐盐证据,S5a,未检得 SDG709 在稻本体因果改变耐盐的研究；多为综述与表观变化观察,Yes,Yes
+OS01G0839100,ZFP179 (C2H2 zinc finger),S1b,S2a,C2H2 锌指; 渗透/ROS 调控; 上游转录调节,S3a,ROS 清除与渗透调节,S4a,C2H2 锌指在作物中普遍调控耐盐；稻内已有因果证据,S5a,JXB 2010：过表达增强稻耐盐，伴随脯氨酸/可溶糖上调与抗氧化能力增强,Yes,Yes
+OS01G0842200,OsGRAS2,S1b,S2b,GRAS转录因子；盐应答调控但非核心离子/渗透模块,S3b,调控网络（非核心必需通路节点）,S4b,尚无跨物种一一正交并具因果耐盐证据,S5a,Plant Physiol (or Plant Sci) 2024/2025：OsGRAS2遗传操作改变稻耐盐与产量（激活标签系/转基因）；PMID:39738626,Yes,Yes
+OS01G0848200,OsP5CS2,S1b,S2a,脯氨酸生物合成限速酶；渗透保护；应激诱导,S3a,Proline biosynthesis (KEGG arginine/proline)；渗透调节核心节点,S4a,P5CS途径在作物中保守；多物种P5CS影响耐盐/渗透胁迫,S5a,Plant Sci 2004: OsP5CS2为盐/冷耐受所必需；稻本体突变/转基因证据；DOI:10.1016/j.plantsci.2004.04.009,Yes,Yes
+OS01G0864500,OsSDS1,S1b,S2b,未知功能/诱导；非核心模块直接证据不足,S3b,无已标注耐盐核心通路证据,S4b,仅异源系统（拟南芥）过表达负调控报道，非正交同源,S5b,未检得稻本体KO/OE直接改变耐盐；Arabidopsis转基因仅作旁证,No,No
+OS01G0868000,OsERF099/OsEREBP2,S1b,S2b,AP2/ERF转录因子；盐/ABA诱导表达,S3b,乙烯/ABA上游网络（非核心离子外排/转运）,S4b,无一一正交同源因果证据,S5b,未见OsERF099在稻本体因果耐盐论文；多为表达与互作（如调控OsRMC）,No,No
+OS01G0887700,OsAL1/OsPHD1（Alfin-like）,S1b,S2b,PHD/Alfin样转录因子；胁迫相关但缺核心证据,S3b,表观/转录调控,S4b,稻内家族研究与干旱性状为主；缺盐因果与正交同源证据,S5b,未检得OsAL1稻本体直接改变盐耐的KO/OE文献,No,No
+OS01G0893400,OsBTBZ1,S1b,S2b,BTB-TAZ 蛋白；ABA相关,S3b,ABA调控网络（非核心通路节点）,S4b,仅见在拟南芥表达OsBTBZ1增强耐盐（异源系统），非正交同源,S5b,稻本体因果证据未检得,No,No
+OS01G0897000,OsCDKB1;1,S1b,S2b,细胞周期激酶；与ROS/盐胁迫相关调控,S3b,细胞周期/ROS调控（非核心离子或SOS/HKT模块）,S4b,缺跨物种一一正交因果证据,S5a,2022研究表明干扰OsCDKB1;1表达显著提高稻耐盐（OsFLP–OsCDKB1;1模块）；原文提供遗传证据,Yes,Yes
+OS01G0912700,DUF2358蛋白（未命名）,S1b,S2b,未知功能；盐诱导/预测,S3b,无已确认的耐盐通路证据,S4b,仅异源系统功能回补（拟南芥）提示；非正交同源,S5b,稻本体KO/OE尚未见直接耐盐因果论文,No,No
+OS01G0930400,OsHAK5,S1b,S2a,高亲和力K+转运体；提高K/Na比,S3a,离子稳态/钾转运通路（耐盐核心模块）,S4a,HAK家族在作物中保守；多物种与稻内均有耐盐因果证据,S5a,Plant Physiol 2014：OsHAK5 KO/OE改变K/Na并提升盐耐；多篇后续补强,Yes,Yes
+OS01G0952200,OsCHR708 / OsFbox58,S1b,S2b,染色质重塑/或F-box；盐应答证据不足,S3b,表观/蛋白降解调控（非核心）,S4b,缺少正交同源因果证据,S5b,未见稻本体直接因果耐盐研究,No,No
+OS01G0955100,OsMSR2 / CML31,S1b,S2a,Ca2+ sensor (CML); ABA signaling; stress-inducible,S3a,Calcium/ABA signaling; stress-responsive signaling,S4a,CMLs/CaM-like proteins in crops often enhance salt tolerance; conserved Ca2+-sensor module,S5a,Transgenic rice OE improves salt tolerance; ABA hypersensitivity; survival rate ↑,Yes,Yes
+OS01G0959200,OsASR1 (ASR family),S1b,S2a,ASR chaperone-like; ROS scavenging; ABA-associated,S3a,ABA/ROS homeostasis pathway,S4a,ASR homologs in cereals modulate salt/drought via ROS and chaperone activity,S5a,Rice OE and RNAi lines show altered survival under 120–140 mM NaCl; interacts with OsSKL2; ROS lowering,Yes,Yes
+OS01G0970600,OsRH58 (DEAD-box RNA helicase),S1b,S2b,Chloroplast RNA helicase; evidence mainly in Arabidopsis for salt tolerance,S3b,No direct rice pathway evidence linking to salt,S4a,"Orthologous DEAD-box helicases (e.g., OsSUV3) affect salt tolerance in rice; conserved chloroplast translation role",S5b,No rice in planta causal manipulation for salt; heterologous Arabidopsis OE only,No,No
+OS01G0971100,OsDi19-5 (DI19 family),S1b,S2b,DI19 TFs stress-inducible; limited direct evidence for OsDi19-5 in salt in rice,S3b,No KEGG core salt pathway assignment,S4a,Arabidopsis/Rice DI19 family members implicated in abiotic stress; conservation suggests potential,S5a,definitive rice knockout/overexpression salt phenotype for OsDi19-5,Yes,Yes
+OS02G0100300,OsHSP40 (OsDNAJ15),S1b,S2a,Hsp40/DNAJ chaperone activates OsHKT1;5 via OsBAG4–OsMYB106 complex,S3a,Na+ homeostasis via HKT1;5 (transport) pathway,S4a,Hsp40–Hsp70 chaperone module conserved across plants for stress responses,S5a,osdnaj15 loss-of-function → salt-sensitive; OE → salt-tolerant; activates OsHKT1;5,Yes,No
+OS02G0148100,OsMAPK14 / OsMPK14 / OsMAPK33,S1b,S2b,Specific MPK14 role in salt unclear; mixed/seed-related roles reported for related MAPKs,S3b,"MAPK cascades in salt signaling exist, but no direct rice genetic salt evidence for MPK14",S4a,"MAPK family members (e.g., MPK3/6) positively regulate salt tolerance in rice",S5a,No rice study showing MPK14 causal manipulation alters salt phenotype,Yes,Yes
+OS02G0266800,RISBZ3 / OsbZIP20,S1b,S2b,Seed storage protein bZIP; not a core salt module,S3b,No salt-related pathway annotation,S4b,No high-confidence ortholog evidence linking RISBZ3 to salt tolerance,S5b,No rice causal salt phenotype reports for RISBZ3,No,No
+OS02G0276500,OsVTE1 (Tocopherol cyclase),S1b,S2a,Vitamin E (tocopherol) biosynthesis; ROS scavenging central to salt tolerance,S3a,Vitamin E biosynthesis/antioxidant detoxification influencing salt response,S4a,VTE1 orthologs across plants link vitamin E to stress tolerance,S5a,Rice OE increases salt tolerance; RNAi increases sensitivity; ROS lowered,Yes,Yes
+OS02G0281000,OsPKG / OsPP23,S1b,S2a,cGMP-dependent protein kinase with dual kinase/phosphatase activity; mediates salt and GA signaling,S3a,cGMP signaling/GA pathway nodes impacting salt response,S4a,PKG-like signaling conserved; interaction partners point to conserved hormone signaling,S5a,Plant Cell 2019: rice PKG roles in salt stress; mechanistic targets (GAMYB),No,No
+OS02G0465900,OsARP / OsCTP,S1b,S2b,"Proposed vacuolar Na+ sequestration regulator, but in-rice causal data lacking",S3b,No direct KEGG/Plant Reactome salt pathway evidence in rice,S4b,No validated ortholog evidence affecting salt tolerance,S5b,Heterologous tobacco OE improves salt tolerance; no rice causal evidence,No,No
+OS02G0526400,OsClpD1/ERD1,S1b,S2b,Chloroplast ClpD/ERD1 chaperone; dehydration/oxidative response,S3b,Protein quality control,S4b,Arabidopsis ERD1/ClpD implicated in dehydration; salt causality in rice not shown,S5b,Rice in planta causal salt phenotype not found; only heterologous Arabidopsis OE shows salt tolerance,No,No
+OS02G0527100,OsCHR710 (Snf2),S1b,S2b,Chromatin remodeler; salt-induced expression (family-level),S3b,Epigenetic regulation,S4b,No high-confidence ortholog with causal salt phenotype for CHR710; related CHR726 shows salt phenotype but is paralog,S5b,No KO/OE/complementation in rice showing direct salt phenotype for CHR710,No,No
+OS02G0542400,OsGTγ-1 (Trihelix),S1b,S2b,Trihelix TF; regulates ion-transport genes; stress-inducible,S3b,Transcriptional regulation (non-core),S4b,No cross-species one-to-one ortholog causal salt evidence,S5a,Rice OE enhances salt tolerance; mutant osgtγ-1 is salt-sensitive; RAP-DB annotates salt tolerance,Yes,No
+OS02G0564100,OsAL2 (Alfin-like 2),S1b,S2b,PHD/Alfin-like TF; stress-related,S3b,Transcriptional/epigenetic regulation,S4b,Cross-species AL evidences exist but not high-confidence ortholog in rice,S5b,No rice in planta causality for OsAL2 altering salt tolerance,No,No
+OS02G0579600,OsMADS27,S1b,S2a,Nitrate-dependent salt tolerance; root system regulation,S3a,Nitrate signaling → salt tolerance,S4b,No strict ortholog causal salt evidence required,S5a,Genetic studies show OsMADS27 mediates nitrate-dependent salt tolerance and root adaptation,Yes,Yes
+OS02G0592300,OsPMS1 (MMR),S1b,S2b,Mismatch repair protein; salt negative regulator,S3b,DNA repair; stress signaling cross-talk,S4b,No cross-species ortholog causality for salt,S5a,ospms1 mutants show enhanced salt tolerance; mechanistic/physiology and transcriptome support,Yes,Yes
+OS02G0594700,OsBTBN3 (BTB/NPH3),S1b,S2b,BTB-type E3 adaptor; salt-induced expression,S3b,Ubiquitin-mediated regulation,S4b,Only OsBTBZ1 heterologous Arabidopsis data; no ortholog-based causality for BTBN3,S5b,No rice in planta causal salt phenotype for OsBTBN3,No,No
+OS02G0601300,OsGAPC3 (cytosolic GAPDH),S1b,S2b,ROS detox/homeostasis; glycolytic enzyme multifunction,S3b,Redox metabolism,S4b,Orthologs reported in other species but rice causality is gene-specific,S5a,Rice OE of OsGAPC3 confers salt tolerance and modulates H2O2,Yes,Yes
+OS02G0610600,OsRSZ23 (SR splicing factor),S1b,S2b,SR/RSZ splicing factor; stress-responsive AS,S3b,mRNA splicing pathway,S4b,No high-confidence ortholog with causal salt phenotype,S5b,No rice KO/OE causality for RSZ23 under salt; only reviews/AS evidence,No,No
+OS02G0655200,OsERF95/OsSta2,S1b,S2a,AP2/ERF positive regulator; ABA/ethylene link; higher yield and salt tolerance when OE,S3a,ABA/ethylene transcriptional signaling,S4b,ERF family conserved; ortholog-specific salt causality not required,S5a,Ectopic/overexpression in rice enhances salt and osmotic stress tolerance with agronomic improvements,Yes,Yes
+OS02G0666200,,S1b,S2a,膜水通道蛋白; 提高水力传导; 影响Na+积累,S3a,跨膜水运输/渗透调节→耐盐,S4a,多作物PIP家族过表达提高耐盐/渗透耐受，机制保守,S5a,稻本体过表达适度提高耐盐与导水率；敲除导致Na+积累↑和盐敏,Yes,Yes
+OS02G0669100,,S1b,S2a,去水蛋白/LEA; ROS清除; 蛋白质保护,S3a,ABA/ROS稳态与渗透保护,S4a,多物种去水蛋白正向调控耐盐；保守作用,S5a,稻本体过表达提高耐盐；存活率、Fv/Fm等指标改善,Yes,Yes
+OS02G0672200,,S1b,S2b,miRNA-RISC核心; miR168/AGO1级联影响Na+平衡,S3b,小RNA通路（非KEGG盐核心节点）,S4b,缺乏高置信正交同源+因果耐盐证据,S5b,miR168-STTM在稻体内增强耐盐，但未直接操纵OsAGO1a本基因,No,No
+OS02G0677300,,S1b,S2b,冷响应TF；DREB1系上游调控,S3b,CBF通路（本基因对盐不显著）,S4b,跨物种DREB1多与冷/旱；本基因盐效应不显著,S5b,稻过表达增强耐冷但对盐/旱不显著,No,No
+OS02G0689800,,S1b,S2b,染色质重塑（SWR1）；表达线索,S3b,表观重塑（无盐核心节点证据）,S4b,未见一一正交同源因果耐盐,S5b,缺乏稻体内KO/OE直接改变耐盐的报道,No,No
+OS02G0700700,,S1b,S2b,极性/生长相关; 逆境应答线索,S3b,发育/极性网络（非盐核心）,S4b,无高置信正交同源耐盐证据,S5b,未见稻体内因果耐盐研究,No,No
+OS02G0706400,,S1b,S2a,MYB-related TF；调控衰老与盐响应基因,S3a,ABA/叶衰老-盐应答转录网络,S4a,MYB模块耐盐调控在作物中保守,S5a,osrl3突变体对盐超敏；转基因证实参与盐响应,Yes,No
+OS02G0709600,,S1b,S2b,水趋性/逆境表达；盐处理中品种依赖诱导,S3b,向水性/根发育相关网络,S4b,缺正交同源因果耐盐证据,S5b,报道为表达与推断；缺少稻本体因果操纵,No,No
+OS02G0736400,,S1b,S2a,嘧啶合成酶; 影响能量/ROS; ABA/盐诱导,S3a,代谢-ROS耦合通路（耐盐正调控）,S4a,DHODH保守；功能提升耐盐在不同系统被验证,S5a,稻本体过表达耐盐/耐旱↑，反义/低表达盐敏,Yes,Yes
+OS02G0755000,,S1b,S2a,果胶甲酯化调控细胞壁；影响离子稳态,S3a,细胞壁-离子稳态/Na+进入屏障通路,S4a,细胞壁甲酯化在作物耐盐中保守,S5a,ostsd2 突变降低耐盐；离子稳态受损，表型明确,No,Yes
+OS02G0755900,,S1b,S2a,UDP-糖基转移酶; ABA/ROS 调控; 胁迫诱导,S3a,ABA-ROS 调控与次生代谢适应,S4a,水稻及他作物UGT在耐盐中保守；调控激素与ROS,S5a,OsUGT3 过表达增强水稻耐盐/耐旱；E.E.Bot. 2021；Oryzabase条目给出综述链接,Yes,Yes
+OS02G0759800,,S1b,S2a,剪接体辅因子SKIP; 调控干旱/盐耐受,S3a,转录后剪接-ABA/胁迫网络,S4a,SKIP模块在模式植物保守；拟南芥/水稻均有因果,S5a,PNAS 2009：OsSKIPa 过表达提高稻耐盐，抑制则生长停滞与胁迫敏感,Yes,Yes
+OS02G0776400,,S1b,S2b,NF-YA 转录因子；盐/旱表达变化,S3b,转录调控（非盐核心离子节点）,S4b,缺一一正交同源并具因果耐盐证据,S5b,未检得操纵 OsNF-YA11 本基因直接改变稻耐盐的KO/OE论文；多为家族/表达层面,No,No
+OS02G0789400,,S1b,S2b,SR/RSZ 剪接；胁迫AS,S3b,mRNA 剪接通路（非核心耐盐节点）,S4b,缺高置信正交同源因果证据,S5b,未见稻本体 KO/OE 直接改变耐盐；数据库/综述为主,No,No
+OS02G0802700,,S1b,S2a,叶绿体膜脂 MGDG 合成；光合膜稳态,S3a,膜脂代谢→离子平衡/光合保护,S4a,MGD 在植物中保守；盐逆境下保护作用一致,S5a,Agronomy 2022：水稻 OsMGD 过表达提高耐盐并维持光合与离子平衡,Yes,Yes
+OS03G0117100,,S1b,S2a,过氧化体分裂/稳态；Na+/K+ 调控,S3a,ROS-过氧化体与离子转运联动,S4a,PEX11 保守；多物种参与盐耐,S5a,Frontiers Plant Sci 2016：操纵 OsPEX11 提升稻耐盐，调控阳离子转运与抗氧化,No,No
+OS03G0131300,,S1b,S2a,泛素受体/蛋白降解；胁迫响应,S3a,UPS-胁迫信号连接通路,S4a,UBL-UBA 途径保守；水稻本体验证,S5a,Plant Physiol 2019/2020：OsDSK2a 介导幼苗生长与盐响应；遗传证据充分,No,No
+OS03G0133000,,S1b,S2a,NAC 转录激活子；ABA 通路上游,S3a,ABA 介导的盐胁迫信号通路,S4a,NAC 模块保守；多作物正调控耐盐,S5a,Plant Physiol/Frontiers 2016：ONAC022 过表达提高稻耐盐/耐旱；上调ABA相关与后效应基因,Yes,Yes
+OS03G0180800,,S1b,S2a,JA 通路 JAZ 抑制子；K+ 转运调控；RSS3 复合体,S3a,JA–K+ 内稳态/盐应答转录网络,S4a,JAZ 模块保守；多系统一致,S5a,Plant Sci 2015：抑制 OsJAZ9 降低稻耐盐；RAP-DB/Oryzabase与综述均收录,Yes,Yes
+OS03G0211800,,S1b,S2b,果胶半乳糖醛酸转移酶；表达上调,S3b,细胞壁代谢（缺直接耐盐因果）,S4b,仅表达/关联证据；无正交因果,S5b,未检得 KO/OE 改变稻耐盐的研究；多为 GT8 家族表达上调与综述,No,No
+OS03G0230500,,S1b,S2b,"Inositol 1,3,4-trisphosphate 5/6-kinase; inositol signaling; osmolyte regulation",S3b,Signal transduction (inositol phosphate),S4b,未见跨物种一一正交并具因果耐盐功能的直接证据,S5a,Plant Mol Biol 2011：dsm3突变与过表达均表现为盐/旱超敏，表明适度表达对耐盐必需；PMID可核验,Yes,Yes
+OS03G0231600,,S1b,S2b,Branched-chain aminotransferase; vitamin B5/CoA代谢链接,S3b,氨基酸/辅酶代谢（非盐核心通路）,S4b,缺高置信正交同源+因果耐盐证据,S5a,New Phytol 2024：OsBCAT2 正向调控稻耐盐（促进维生素B5合成）,Yes,Yes
+OS03G0232000,,S1b,S2b,UPS E3连接酶；降解OsGRF7→影响阿苯苷/耐盐,S3b,UPS调控（非核心离子外排/转运）,S4b,缺跨物种正交同源因果证据,S5a,Plant Cell 2024：OsFBO13 为盐胁迫负调控因子；操纵改变稻耐盐与粒重,No,No
+OS03G0270000,,S1b,S2b,AHL家族上游转录调控；盐/旱表达变化,S3b,上游转录网络（非核心通路）,S4b,无高置信正交同源并具因果证据,S5b,未检得在稻本体KO/OE直接改变耐盐的论文（家族层面综述为主）,No,No
+OS03G0285700,,S1b,S2b,ROS清除（抗氧化）；家族成员APX2具强证据,S3b,抗氧化通路（非该基因的核心通路证据）,S4b,缺跨物种正交同源因果证据用于本基因,S5b,关于APX1多为表达/生理或种子发育；稻本体在盐下明确因果少见；APX2相反有S5a,No,No
+OS03G0285900,,S1b,S2b,可变剪接; 对冷胁迫已有功能报道,S3b,剪接通路（非盐核心节点）,S4b,暂无盐相关高置信同源因果,S5b,稻本体在盐下的因果操纵未见；主要为冷胁迫AS研究,No,No
+OS03G0289800,,S1b,S2b,黄酮/花青素途径候选；表达与推断,S3b,次生代谢（非盐核心通路）,S4b,无正交同源因果证据,S5b,尚无稻体 KO/OE 直接改变耐盐的论文（为候选基因）,No,No
+OS03G0302000,,S1b,S2b,过氧化体分裂与ROS；家族成员OsPEX11已证实耐盐,S3b,过氧化体/ROS通路（本位点缺直接）,S4b,家族旁证属同源内不同成员，未达跨物种正交要求,S5a,未见针对OsPEX11-3的稻本体因果耐盐论文,Yes,Yes
+OS03G0315400,,S1b,S2a,应激MYB转录因子；直接提升耐盐/耐冷/抗脱水,S3a,ABA/胁迫转录网络（上游）,S4a,作物中MYB耐盐保守；多物种旁证,S5a,J. Exp. Bot. 2012：OsMYB2 过表达增强耐盐（PMID可核验）,Yes,Yes
+OS03G0327600,,S1b,S2b,EUL凝集素家族；盐/ABA诱导表达,S3b,Lectin-信号/胁迫网络（候选）,S4b,缺高置信正交同源因果证据,S5b,关于OsEULD1b多为表达与定位；未见稻本体因果耐盐操纵,No,No
+OS03G0344100,OsSR32 (SR splicing factor),S1b,S2b,SR可变剪接; 盐应答表达/AS（家族层面）,S3b,mRNA剪接通路（非已证核心盐节点）,S4b,同源/家族有冷/盐AS作用，但无一一正交因果,S5b,未检得直接操纵OsSR32改变稻耐盐；仅AS/家族研究报道,No,No
+OS03G0363800,OsSCL28 (SC35-like),S1b,S2b,SC35样剪接因子; 与胁迫相关表达,S3b,剪接/转录后调控,S4b,家族成员SCL30过表达降低耐盐，但本基因无因果验证,S5b,未见OsSCL28在稻本体KO/OE直接改变盐耐的论文,No,No
+OS03G0363900,OsDHHC9 (S-acyltransferase),S1b,S2b,蛋白S-棕榈酰化; 信号调控潜力,S3b,膜蛋白修饰/信号（缺稻通路证据）,S4b,拟南芥PAT10等与盐相关，但本基因无稻因果,S5a,未检得OsDHHC9在稻体内因果改变盐耐的KO/OE研究,Yes,Yes
+OS03G0387000,OsAQR/DNA2_2 (RNA helicase-like),S1b,S2b,AQR/DNA2家族; 干旱/盐表达,S3b,剪接/复制相关网络（缺核心盐节点证据）,S4b,家族层面分析；无高置信正交因果耐盐,S5b,未见对本基因的稻本体因果操纵改变盐耐,No,No
+OS03G0390700,OsTTL (transthyretin-like),S1b,S2a,尿囊素/激素互作; 胁迫信号调控; 萌发期耐盐,S3a,萌发期耐盐-代谢/激素耦合通路,S4a,TTL在植物胁迫中保守；稻内直接验证,S5a,Rice 2023 qNL3.1：鉴定OsTTL与OsSAPK1为萌发期耐盐因果基因；功能验证齐备,Yes,Yes
+OS03G0575200,OsHAK16 (K+ transporter),S1b,S2a,高亲和力K+转运; 提高K/Na比,S3a,离子稳态/钾转运核心模块,S4a,HAK家族保守调控耐盐；稻内直接证据,S5a,Planta 2019：KO/OE显示OsHAK16维持K稳态并提高盐耐,Yes,Yes
+OS03G0606200,RMtATP6 (mitochondrial ATP synthase 6kDa subunit),S1b,S2b,线粒体ATP合酶亚基；能量代谢,S3b,能量代谢（缺稻盐通路直接证据）,S4b,无高置信同源因果耐盐证据,S5b,未见稻本体KO/OE改变盐耐的研究,No,No
+OS03G0610650,OsSRP-LRS (Serpin1-like),S1b,S2a,丝氨酸蛋白酶抑制; 细胞死亡调控,S3a,细胞死亡/ROS通路与盐应答联动,S4b,Serpin家族保守；本基因稻内有功能数据,S5a,Rice 2015：OsSRP-LRS RNAi在盐处理下细胞死亡夸大，指向耐盐负面影响,No,No
+OS03G0678800,OsGATL2 (Galacturonosyltransferase-like 2),S1b,S2b,果胶合成相关; 壁改性潜在影响离子通量,S3b,细胞壁-盐适应候选（缺核心节点证据）,S4b,仅GWAS/系统分析提示为候选,S5b,未见稻本体因果操纵改变盐耐的论文,No,No
+OS03G0594400,OsMST2/OsSTP2 (monosaccharide transporter),S1b,S2b,糖转运; 胁迫诱导（家族层面）,S3b,碳同化/能量代谢（非核心盐节点）,S4b,MST家族有成员与盐相关，但无本基因因果,S5b,未见OsMST2在稻本体因果改变盐耐,No,No
+OS03G0786400,,S1b,S2a,C2H2转录因子；气孔开闭；H2O2稳态/过氧化物酶,S3a,ROS–气孔运动/ABA关联,S4b,未见一一正交同源在作物中以相同机制影响盐耐的直接证据,S5a,Genes Dev 2009：dst失功能→盐/旱耐受↑；机制为调控H2O2导致气孔关闭↑,Yes,Yes
+OS03G0798200,,S1b,S2b,RING E3泛素化；与转酮醇酶互作,S3b,UPS调控（非核心离子/激素节点）,S4b,缺高置信跨物种一一正交并具因果验证,S5a,Plant Physiol 2018：过表达OsSIRP2提升水稻盐/渗透耐受；与OsTKL1互作,No,No
+OS03G0833200,,S1b,S2b,tRNA Am修饰；调控逆境应答转译,S3b,tRNA修饰通路（非耐盐核心）,S4b,无保守一一正交并具盐耐因果迁移性证据,S5a,Planta/Plant Physiol 2017：OE增强稻耐盐；体外催化tRNA Am形成，酵母互补,Yes,No
+OS03G0859500,,S1b,S2b,ABCG外排/蜡质相关候选,S3b,外排/疏水代谢（缺稻盐核心证据）,S4b,无一一正交并具因果耐盐验证,S5b,暂无KO/OE直接改变稻耐盐的论文（综述称稻ABCG盐研究稀缺）,No,No
+OS04G0105100,,S1b,S2b,RING E3；靶向OsPEX11-1降解,S3b,UPS-过氧化体联动（证据为机制但非核心节点）,S4b,缺跨物种一一正交并具盐耐因果,S5a,Plant Mol Biol 2021：OsSIRP4为盐负调控；OE盐敏、作用于OsPEX11-1,Yes,No
+OS04G0110600,,S1b,S2b,应激相关RNA结合/剪接候选,S3b,AS/转录后调控（缺核心）,S4b,为GWAS候选；未达同源因果标准,S5b,未见稻体KO/OE直接改变耐盐；Oryzabase与GWAS指示候选,No,No
+OS04G0118900,,S1b,S2b,SR/RS剪接蛋白；胁迫AS,S3b,剪接受体通路（缺核心）,S4b,缺高置信同源因果验证,S5b,未见对OsRS29的稻本体盐耐因果操纵,No,No
+OS04G0304200,,S1b,S2b,蓝光受体；表达受盐影响,S3b,光信号-胁迫互作（缺直接通路核心/遗传）,S4b,无同源因果盐耐证据,S5b,未检得KO/OE在稻中直接改变耐盐（仅表达差异报道）,No,No
+OS04G0379700,,S1b,S2a,ABA生物合成连接；光保护/ROS调控,S3a,类胡萝卜素→ABA/ROS通路,S4b,跨物种有旁证，但缺一一正交盐因果,S5a,Planta 2021：OsVDE为盐负调控；遗传材料显示其调控ABA合成并影响耐盐,Yes,Yes
+OS04G0395800,,S1b,S2a,JA信号抑制子；与MYL1/MYL2互作,S3a,JA信号→盐应答网络,S4a,JAZ模块保守；并有本基因稻体因果支撑,S5a,PubMed 2024：OsJAZ5为多福灵作用靶；OE提高水稻耐盐，生化与遗传证据齐备,Yes,Yes
+OS04G0444800,,S1b,S2b,Fe(III)还原→Fe稳态，与盐仅表观/推断关联,S3b,铁稳态/氧化还原（缺稻盐核心直接证据）,S4b,阿拉伯芥/水稻均有Fe稳态功能，但无盐耐因果可迁移验证,S5b,稻本体操纵OsFRO1/7报道聚焦Fe毒害而非耐盐；仅有盐下表达与综述推断。,No,No
+OS04G0448100,,S1b,S2a,DUF1644胁迫蛋白；调控ABA/盐应答基因,S3a,ABA/盐应答转录网络（负调控）,S4b,DUF1644跨物种功能尚不统一；以稻体为准,S5a,OE致盐敏，RNAi显著耐盐并增粒重；明确稻本体因果（Frontiers Plant Sci 2022）,Yes,Yes
+OS04G0449400,,S1b,S2a,PP2C负调控；连接JA/ABA与RFO代谢,S3a,ABA/JA信号与糖代谢耦合（负调控）,S4b,PP2C为保守模块，但以本基因为准,S5a,敲除增强稻对渗透与盐耐；JA/ABA与RFO代谢上调（Rice 2022）,Yes,Yes
+OS04G0464200,,S1b,S2b,甜菜碱合成酶；稻内源GB低且功能争议,S3b,渗透保护（稻内缺直接因果证据）,S4b,关联研究提示萌发期耐盐相关，但无高置信跨物种一一正交因果,S5a,PLOS ONE 2015为GWAS关联而非KO/OE；无稻本体因果操纵改变盐耐的报道,Yes,Yes
+OS04G0473400,,S1b,S2b,核糖体大亚基；并非耐盐核心机制,S3b,翻译调控（非核心盐通路）,S4b,缺同源一一正交盐耐因果,S5a,过表达提高稻对150–200 mM NaCl耐受（Plant Physiol Biochem/Physiol Plant系 2021）,Yes,No
+OS04G0476800,,S1b,S2a,选择性自噬受体；调控ROS清除,S3a,自噬–ROS稳态通路（核心节点）,S4a,NBR1在模式植物中保守参与胁迫耐受,S5a,稻本体证实OsNBR1调控耐盐与ROS累积（Plant Physiol/Physiol Plant或Frontiers 2023）,Yes,Yes
+OS04G0495800,,S1b,S2b,硝酸响应TF；盐胁迫诱导,S3b,NR/NO与ABA代谢耦合（文献推断）,S4b,缺高置信同源一一正交并具因果迁移性,S5b,现有报道多为诱导与NR/NO模块推断；未见对OsNLP2本基因KO/OE直接改变稻耐盐,No,No
+OS04G0498600,,S1b,S2a,多胺生物合成（Spd/Spm）；渗透保护/ROS调控,S3a,多胺代谢→耐盐核心机制,S4a,多胺途径跨物种保守，水稻有因果,S5a,过表达提升稻NaCl耐受并提高多胺水平（Plant Sci 2002 等）,Yes,Yes
+OS04G0511200,,S1b,S2a,钙结合CLO；与OsDi19-5复合调控应答,S3a,ABA–Ca2+–应激网络（报道为负调控）,S4a,与拟南芥RD20功能相关；稻内直接验证,S5a,OE/突变材料显示对盐应答的负调控作用（The Plant Journal 2021）,Yes,Yes
+OS04G0526800,,S1b,S2a,ABA依赖正调控；调控ABA代谢与响应基因,S3a,ABA信号通路核心节点（上游调控）,S4a,ABA通路保守；本基因稻内因果成立,S5a,OE提高、突变降低耐盐；机制为ABA依赖（Plant Physiol Biochem 2020/Plant Physiol数据）,Yes,Yes
+OS04G0529800,,S1b,S2b,糖/多元醇转运家族；盐下表达线索,S3b,碳同化与渗透调节（候选）,S4b,跨物种仅家族层面报道；本基因缺因果迁移性,S5b,未检得稻本体KO/OE/互补直接改变耐盐；仅数据库与综述/表达,No,No
+OS04G0530900,,S1b,S2b,GT8家族；果胶/木聚糖糖基转移,S3b,细胞壁代谢（候选）,S4b,家族/表达提示候选，缺一一正交因果,S5b,暂无稻本体因果论文；多为GWAS/表达推断,No,No
+OS04G0534600,,S1b,S2b,过氧化体分裂/离子与ROS稳态（家族层面）,S3b,过氧化体-ROS网络（本基因缺直接）,S4b,OsPEX11-1为正调控已证；但OsPEX11-4本基因缺直接因果,S5b,未见针对OsPEX11-4的稻本体盐耐因果；家族旁证不记入,Yes,Yes
+OS04G0540900,,S1b,S2a,RLCK 磷酸化激活 CatC；调控H2O2稳态,S3a,H2O2/ROS→催化酶通路（核心节点）,S4b,RLCK模块保守，但以本基因为准,S5a,OE提高耐盐；直接磷酸化OsCATC，遗传与生化证据充分,No,No
+OS04G0541700,,S1b,S2a,ABA依赖负调控；下调→耐盐↑，OE→耐盐↓,S3a,ABA-ROS/气孔与应答转录网络,S4b,HD-Zip模块保守；以本基因稻证据为准,S5a,T-DNA下调增强耐盐，过表达降低耐盐；Zhang 2012 等,Yes,Yes
+OS04G0556300,,S1b,S2a,线粒体GPX；调控ROS清除/抗氧化,S3a,ROS清除核心通路,S4a,GPX抗氧化作用跨物种保守，稻内有功能数据,S5a,Knockdown线在NaCl下光合受损更重；指出其正向参与盐适应；Mol Plant亦给出功能机制,Yes,Yes
+OS04G0560600,,S1b,S2a,Ca2+-依赖蛋白激酶；正向调控耐盐,S3a,Ca2+信号→转录/离子/ROS调控网络,S4a,CDPK盐耐作用保守；本基因稻体证据充分,S5a,OE增强耐盐；遗传和生化证据（Plant J/Plant Biotech J/PMID 21883553）,No,Yes
+OS04G0566100,,S1b,S2b,Snf2/染色质重塑；仅表达或家族分析,S3b,表观调控（缺核心节点直接证据）,S4b,缺高置信正交同源+因果迁移性,S5a,未检得KO/OE直接改变稻耐盐的论文,Yes,Yes
+OS04G0584600,,S1b,S2a,CDPK；最新研究为盐耐正调控,S3a,Ca2+信号-盐应答通路,S4a,CDPK模块保守；且本基因新证据指向正调控,S5a,Plant Physiology 2024：OsCPK13为盐耐正调控；突变更敏感/存活率降低,No,No
+OS04G0531400,,S1b,S2a,Lectin RLK；负调控盐耐,S3a,受体激酶-盐信号通路（负调控）,S4b,LecRLK模块保守；以稻本基因为准,S5a,经典盐敏基因SIT2：突变抑制盐敏，或OE/突变改变盐性状（原始克隆/功能研究）,Yes,Yes
+OS04G0603200,,S1b,S2b,RING E3-微管相关; UPS调控候选,S3b,UPS/微管-胁迫连接（缺核心节点直接证据）,S4b,异源系统与家族旁证较多，缺一一正交因果迁移性,S5a,近年稻本体研究指出OsRMT1通过泛素化降解靶蛋白（如OsMBL1）负调控耐盐；早期仅见拟南芥OE耐盐↑,Yes,Yes
+OS04G0631600,,S1b,S2b,bHLH转录因子；有盐诱导/补偿线索,S3b,上游转录网络（缺稻本体盐通路核心证据）,S4b,与AtbHLH112互补/类比，但缺一一正交并有稻体因果迁移性,S5b,未见直接操纵OsbHLH068在稻本体改变耐盐的KO/OE/互补；多为推断或异源互补,No,No
+OS04G0659100,,S1b,S2b,叶绿体谷氨酰胺合成酶；N代谢与盐胁迫表达变化,S3b,氮代谢-盐适应（缺核心节点证据）,S4b,跨物种功能保守但无盐耐因果迁移性,S5a,稻体研究以表达与代谢分析为主；未见KO/OE直接改变耐盐,Yes,Yes
+OS04G0661200,,S1b,S2a,肌醇多磷酸信号(IP3/InsP6)调控ROS/胁迫,S3a,Inositol phosphate signaling → ROS/ABA互作,S4b,相关机制保守，但以本基因稻证据为准,S5a,osipk1_1突变体对盐/旱更耐；IP3降低、ROS下降，遗传与生理证据齐备,Yes,Yes
+OS04G0687300,,S1b,S2a,ABA介导抗氧化; 分子伴侣调控SOD/CAT,S3a,ABA–ROS稳态通路,S4b,Hsp40作用保守，但稻内以本基因为准,S5a,OsDjC46 与ZFP36互作；OE提高、敲减降低耐盐/抗氧化能力（稻本体）,Yes,Yes
+OS05G0105900,,S1b,S2b,剪接因子；与FKBP20-1b互作参与胁迫响应,S3b,AS通路（缺耐盐核心节点直接证据）,S4b,正交同源在拟南芥有盐相关，但稻本体未证,S5b,未见直接操纵OsSR45a改变稻耐盐的KO/OE报道,No,No
+OS05G0113500,,S1b,S2a,ABA合成与ROS清除调控；正向耐盐,S3a,ABA–ROS通路,S4b,功能模块保守；以稻本体证据为准,S5a,OE提高、RNAi降低稻耐盐；ABA含量与抗氧化酶活性相应改变,Yes,Yes
+OS05G0148600,,S1b,S2b,NHX家族成员；表达受盐诱导,S3b,Na+隔离通路（本基因缺直接因果）,S4b,NHX家族跨物种保守，但OsNHX3稻体因果未证,S5b,未检得针对OsNHX3的稻本体KO/OE直接改变耐盐；多为OsNHX1的经典证据,No,No
+OS05G0150300,,S1b,S2b,染色质重塑；数据库标注盐/旱响应,S3b,表观调控（缺直接通路/遗传证据）,S4b,Snf2家族有成员与盐相关，但本基因未证,S5b,未见稻本体KO/OE改变耐盐的直接论文,No,No
+OS05G0144300,,S1b,S2b,染色质重塑；表达线索,S3b,表观调控（缺核心节点直接证据）,S4b,家族旁证不足以替代本基因因果,S5b,未见稻本体KO/OE直接改变耐盐的研究,No,No
+OS05G0177500,,S1b,S2b,UGT家族；盐下表达线索,S3b,次生代谢/糖苷化（缺稻核心盐节点）,S4b,同源/家族有盐耐作用，但本基因无一一正交因果,S5a,OsUGT5稻本体KO/OE直接改变耐盐（有OsUGT2/UGT85E1旁证）,Yes,No
+OS05G0289400,,S1b,S2b,剪接相关；GWAS提示负调控候选,S3b,剪接受体网络（无稻通路核心证据）,S4b,Arabidopsis验证与表达相关，但非稻一一正交因果,S5b,IJMS 2022在拟南芥作功能验证；未见稻本体KO/OE→盐表型,No,No
+OS05G0348100,,S1b,S2a,增强环式电子传递，缓解PSI受损,S3a,光合电子传递/NDH通路（盐下核心节点）,S4a,玉米Ndhl同源在稻中亦提升盐耐（高置信）,S5a,2024研究：表达(包括OsNdhl)提高稻耐盐，改善电子传递与氧化伤害,Yes,Yes
+OS05G0392400,,S1b,S2b,RdDM/表观调控候选,S3b,小RNA/Pol IV相关（与盐缺直接因果）,S4b,无跨物种一一正交且具盐因果,S5b,未见稻本体KO/OE直接改变耐盐,No,No
+OS05G0445100,,S1b,S2b,JA-Ile氧化家族；家族成员CYP94C2b已证,S3b,JA信号代谢（本基因缺直接）,S4b,同源/家族旁证，不足以外推到本基因,S5b,未见OsCYP94C4稻本体因果；CYP94C2b在稻中已证增强耐盐,No,No
+OS05G0457200,,S1b,S2a,ABA负调控；敲除耐盐↑，OE耐盐↓,S3a,ABA信号核心模块（PP2C）,S4b,PP2C模块保守；以本基因为准,S5a,2024 Rice/PMC：KO增强、OE降低盐耐；并调控ABA响应,Yes,Yes
+OS05G0491000,,S1b,S2b,Ca2+结合蛋白；盐下表达变化,S3b,Ca2+信号候选（缺稻核心节点直接证据）,S4b,同源旁证不足以达成S4a,S5b,未见OsCML9稻本体KO/OE直接改变耐盐,No,No
+OS05G0516600,,S1b,S2b,囊泡运输；液泡定位,S3b,囊泡-离子稳态候选,S4a,AtRab7/他种Rab7 OE增强耐盐；跨物种保守,S5a,2014 ScientificWorldJournal：OsRab7 OE增强稻盐耐；后续综述/条目复述,Yes,Yes
+OS05G0533500,,S1b,S2b,半胱氨酸/谷胱甘肽代谢；表达受盐诱导,S3b,硫代谢-抗氧化候选（缺直接因果）,S4b,跨物种资料为旁证；稻内未见一一正交因果,S5b,未检得OsSAT1稻本体KO/OE直接改变耐盐的研究,No,No
+OS05G0534400,,S1b,S2a,Ca2+感受器；与OsCIPK24激活OsSOS1,S3a,SOS通路核心节点（离子外排）,S4a,AtSOS3正交已证；SOS模块跨物种保守,S5b,2007 Plant Phys 等证实机制与互补，但缺稻本体表型操纵,No,Yes
+OS05G0555100,,S1b,S2a,PP2A-B'κ 限制SIT1活性→盐耐↑（去磷酸化）,S3a,RLK–MAPK–PP2A 盐信号轴,S4a,PP2A调控逆境保守；稻本体已证正调控,S5a,Zhao 2019：B'κ-PP2A正调盐耐；与SIT1互作/互调（稻本体）,Yes,Yes
+OS05G0567700,,S1b,S2b,ERD/MST家族表达受盐诱导,S3b,糖转运-渗透调节候选（缺直接）,S4b,同源/家族层面有线索，缺一一正交因果,S5b,无稻本体KO/OE导致耐盐改变；多为表达/家族分析,No,No
+OS06G0127000,,S1b,S2b,PEX11-家族参与过氧化体分裂/Na+K+稳态（家族证据）,S3b,过氧化体-ROS网络（本基因缺直接）,S4b,OsPEX11（其他拷贝）有稻体因果；OsPEX11-5未见,S5b,未检得针对OsPEX11-5的稻本体盐耐因果论文；家族旁证不计入,No,No
+OS06G0141100,,S1b,S2b,STP19 盐诱导表达,S3b,糖同化/渗透调节候选,S4b,STP家族异源证据多，缺本基因因果,S5b,未见稻本体KO/OE直接改变耐盐；仅表达/系统发育,No,No
+OS06G0141200,,S1b,S2b,盐抑制型转录因子；负调线索,S3b,ABA/应激转录网络候选,S4b,他种或稻愈伤组织/拟南芥旁证；缺稻整株因果,S5b,2004转基因分析提示负调，但在稻整株未给出KO/OE盐性状,No,No
+OS06G0147800,,S1b,S2a,MKK1→MPK4 介导盐信号；osmkk1盐敏,S3a,MAPK核心通路（MKK1–MPK4）,S4a,MAPK通路跨物种保守，且稻体已证,S5a,Plant Sci 2014：osmkk1更敏感；MKK1活性盐诱导，正调盐耐,Yes,Yes
+OS06G0166500,,S1b,S2a,ABA依赖途径；OE耐盐↑，RNAi耐盐↓,S3a,Aux/IAA–ABA–盐胁迫通路,S4a,Aux/IAA逆境作用保守，稻体有因果,S5a,Plant Physiol. Biochem./Plant Sci 2021：OE↑/RNAi↓耐盐（稻本体）,Yes,Yes
+OS06G0171900,,S1b,S2b,WD40家族盐响应,S3b,DDB1–CUL4/WD40等表观/降解网络候选,S4b,缺高置信同源+功能迁移性,S5b,尚无稻本体KO/OE→盐表型直接报道,No,No
+OS06G0183800,,S1b,S2b,表观调控；发育/根系研究为主,S3b,表观-盐应答候选（缺直接）,S4b,同源在拟南芥有发育/逆境线索；盐因果未证,S5b,未见稻本体KO/OE直接改变耐盐,No,No
+OS06G0210500,,S1b,S2a,调控ATP供给/离子与渗透稳态；突变盐敏,S3a,能量代谢→离子/渗透调节通路,S4a,AtMPTs参与盐响应；保守性强，且稻体有因果,S5a,Crop Journal 2020：CRISPR突变盐下生长受抑、Na+/K+失衡；盐诱导表达,Yes,Yes
+OS06G0241100,,S1b,S2a,受体激酶；ABA敏感性↑；调控抗氧化,S3a,RLK→ROS/ABA信号轴（盐应答）,S4a,RLK盐应答保守；本基因稻本体证据,S5a,OsSRK1过表达提高耐盐；与ABA/抗氧化通路相关（稻本体）,Yes,Yes
+OS06G0255700,,S1b,S2b,Snf2家族；盐/旱上调表达,S3b,表观调控候选（缺核心节点直接证据）,S4b,家族其他成员有胁迫功能；本基因无因果,S5b,未见针对OsCHR737的KO/OE直接改变稻耐盐的研究（表达/比较分析为主）,No,No
+OS06G0472000,,S1b,S2b,蛋白修复/抗氧化；有异源与家族旁证,S3b,ROS修复途径（非盐核心节点直接证据）,S4b,MSR途径跨物种保守，但本基因稻体因果不足,S5b,Planta 2009显示OsMSRA4.1在稻中增强盐耐；OsMSRB1.1在稻本体盐表型证据不足,No,No
+OS06G0526600,,S1b,S2b,RNA代谢；同家族成员在异源系统促盐耐,S3b,转录后/翻译调控候选,S4b,缺一一正交并具稻体因果迁移性,S5b,未见OsRH31在稻本体KO/OE→耐盐的直接论文,No,No
+OS06G0567900,,S1b,S2b,Pi稳态调控；与盐耐关联,S3b,Pi信号-盐互作（非常规核心）,S4b,PHR模块保守，但本基因以稻体为准,S5a,过表达增强水稻耐盐；RNAi降低（稻本体，2024）,No,No
+OS06G0609500,,S1b,S2b,同上（不同注释条目显示同一基因区域）,S3b,Pi信号-盐互作,S4b,同上,S5a,同上：OE增强耐盐（稻本体，2024）,Yes,Yes
+OS06G0612800,,S1b,S2b,SAP家族胁迫蛋白；有表达与综述旁证,S3b,ABA/ROS/蛋白稳态候选,S4b,SAP家族部分成员有盐因果；本基因证据不足,S5a,OsSAP8在稻本体KO/OE直接改变耐盐的权威论文（多为综述或他种系统）,Yes,Yes
+OS06G0625900,,S1b,S2b,盐下在老叶上调；功能定位为K+转运,S3b,离子稳态候选（缺本基因稻体因果）,S4b,HAK家族有盐耐成员；本基因未证,S5b,仅表达/综述提示；无稻本体直接盐表型操纵,No,No
+OS06G0633500,,S1b,S2b,RING E3；ABA相关,S3b,UPS-ABA网络候选,S4b,E3家族其他成员具盐因果；本基因未确证,S5b,检索未得OsCLR1稻本体KO/OE直接改变耐盐的论文（有综述/数据库条目）,No,No
+OS06G0665500,,S1b,S2a,脲嘌呤代谢→ROS清除/ABA互作；正调盐耐,S3a,氮代谢→抗氧化/激素互作通路,S4a,脲嘌呤代谢在逆境中的作用保守；稻体因果成立,S5b,未见OsAAH 过表达提升、突变削弱稻盐耐；机制涉ROS与ABI5通路,No,Yes
+OS06G0683400,,S1b,S2a,Ca2+结合小蛋白；ABA介导；调控DREB2B/APX1/P5CS,S3a,Ca2+–ABA–胁迫信号/ROS渗透调节,S4a,小型EF-hand保守；他种同源（TaCCD1）亦指向盐/渗透作用,S5a,Plant Sci 2016：T-DNA突变盐敏、OE增强耐盐；定位核/质，Ca2+结合；上游影响DREB2B/APX1/P5CS,Yes,Yes
+OS06G0685700,,S1b,S2a,Auxin→ABA/营养互作；rst1突变盐耐↑（转录抑制子）,S3a,激素信号（生长素–ABA）→盐耐网络,S4b,ARF模块保守但一一正交功能外推不足,S5a,PNAS 2022：rst1/OsARF18 突变提高盐耐与产量；定位为RICE SALT TOLERANT 1,Yes,Yes
+OS06G0693700,,S1b,S2b,DUF1644胁迫蛋白；非核心机制,S3b,非经典通路（ABA敏感性不变）,S4b,DUF1644跨物种背景不足以达成一一正交因果,S5a,JIPB 2016：OE增强、RNAi降低稻耐盐；水分损失降低；非ABA依赖,Yes,No
+OS06G0695600,,S1b,S2b,E3泛素连接酶；与OCPI2互作,S3b,UPS-胁迫通路（本基因稻体直接因果不充分）,S4b,家族多成员有盐因果；本基因稻内证据偏异源/推断,S5b,Park 2018等提示为盐应答负调，但主要为异源/间接证据，未见稻本体KO/OE直接盐表型,No,No
+OS06G0698785,,S1b,S2a,甜菜碱合成上游；提高GB含量,S3a,渗透保护物质（甘氨甜菜碱）通路,S4a,CMO→BADH途径跨物种保守；稻体已证功能,S5a,Planta/Plant Cell Rep 2012：OsCMO表达受盐诱导；OE稻提高GB并增强耐盐,Yes,Yes
+OS07G0151200,,S1b,S2b,INT亚家族；RAP-DB注释与盐关联,S3b,渗透调节候选（myo-肌醇代谢-转运）,S4b,跨物种旁证不足以达S4a,S5b,未检得稻本体KO/OE直接改变耐盐的论文（目前为数据库与表达线索）,No,No
+OS07G0164100,,S1b,S2a,通过抑制DST/ABIL2→调控气孔开闭；正调盐耐,S3a,ABA–ROS–气孔运动核心通路,S4a,HDAC节点在植物胁迫中保守；本基因稻体因果成立,S5a,Planta 2021：OE增强、抑制降低稻耐盐；染色质去乙酰化抑制DST/ABIL2；2023 JIPB补充HDA704通路,Yes,Yes
+OS07G0231400,,S1b,S2a,OsMYB2→ANT1表达；氨基酸转运与盐耐,S3a,ABA/转运耦合通路（近作）,S4b,AAT家族保守，但需本基因一一正交验证,S5a,Plant Physiol 2025：OsMYB2激活OsANT1；材料显示OsANT1正向调控生长与耐盐,Yes,Yes
+OS07G0235200,,S1b,S2b,AHL家族染色质结合；盐响应表达线索,S3b,表观/转录调节候选,S4b,无高置信同源因果,S5b,未见稻本体KO/OE直接改变耐盐的研究,No,No
+OS07G0434500,,S1b,S2b,DRD1同源；参与siRNA依赖沉默,S3b,RdDM-盐互作候选（缺直接）,S4b,同源在拟南芥具功能；稻本体盐因果未证,S5b,未见本基因KO/OE直接改变稻耐盐的论文,No,No
+OS07G0438550,,S1b,S2b,SIK样激酶；仅数据库与表达线索,S3b,激酶-盐应答候选（缺核心与遗传）,S4b,跨物种SIK功能有报道，但本基因稻体无因果,S5b,仅Oryzabase/GRCbase等条目标注盐相关，无稻本体KO/OE改变耐盐,No,No
+OS07G0529800,,S1b,S2b,翻译起始；盐处理诱导（克隆自Pokkali）,S3b,翻译起始-逆境耦合候选,S4b,他物种EIF1与盐有关，但稻本体未证,S5b,2009功能克隆与启动子研究，但未报告稻KO/OE直接改变耐盐,No,No
+OS07G0561300,,S1b,S2a,E3泛素-应答；过表达增强盐耐,S3a,UPS-胁迫应答通路（正调）,S4a,F-box在植物盐应答中保守；本基因稻体有因果,S5a,Molecular Breeding 2014：OE于稻/拟南芥均增强耐盐；提供PMID/DOI,Yes,Yes
+OS07G0598300,,S1b,S2a,缺失突变体对盐敏感；上调于盐处理,S3a,表观-盐应答通路（核心因子之一）,S4a,Snf2通路保守；本基因稻体突变表型支持,S5a,Frontiers Plant Sci 2022：oschr726突变对盐胁迫更敏感；功能定位与表达,Yes,Yes
+OS07G0602200,,S1b,S2b,HDA家族；数据库标注盐相关,S3b,表观-ABA/ROS互作候选,S4b,同家族成员有盐因果（如HDA704/710）；本基因未证,S5b,暂无稻本体KO/OE直接盐表型论文（Oryzabase标注TO:0006001）,No,No
+OS07G0608400,,S1b,S2b,AL家族在非稻物种促盐耐；稻内家族分析,S3b,表观/转录调控候选,S4b,跨物种旁证不足以达S4a,S5b,未见OsAL8稻本体KO/OE直接改变耐盐的论文,No,No
+OS07G0623300,,S1b,S2b,SR剪接蛋白；盐下表达线索,S3b,可变剪接受体通路候选,S4b,同源在拟南芥有盐证据；稻本体缺因果,S5b,未检得OsSC35b稻本体KO/OE直接改变耐盐,No,No
+OS07G0626600,,S1b,S2b,盐处理上调；H3K18ac相关,S3b,HAT-表观调控候选,S4b,HAT在盐应答保守；本基因稻本体未证,S5b,表达/综述提示作用，但无KO/OE导致盐表型的稻体论文,No,No
+OS07G0627300,,S1b,S2a,正调盐耐；ABA依赖气孔/细胞周期节点,S3a,ABA–气孔/细胞周期通路（核心TF）,S4a,FLP模块保守；本基因稻体因果成立,S5a,Int. J. Mol. Sci. 2022/Plant Cell 2024：OE增强耐盐；RNAi/机制与ChIP-Seq支持,Yes,Yes
+OS07G0660200,,S1b,S2b,Snf2/CHD成员；盐处理上调（家族层面）,S3b,表观-盐应答候选,S4b,家族其他成员有因果（CHR726/706）；本基因未证,S5b,未见稻本体KO/OE直接改变耐盐表型的论文,No,No
+OS07G0661600,,S1b,S2b,RING E3; UPS候选（缺稻本体核心机制直接证据）,S3b,UPS–盐应答候选,S4b,同家族部分成员具盐因果，但本基因缺一一正交迁移性,S5b,未见稻本体KO/OE直接改变耐盐（条目级/家族旁证为主）,No,No
+OS07G0683600,,S1b,S2b,EUL凝集素；多为表达/预测,S3b,Lectin–胁迫候选（缺通路核心）,S4b,同源/他种旁证不足,S5b,未检得稻本体KO/OE直接改变耐盐的论文,No,No
+OS07G0684000,,S1b,S2b,EUL凝集素；表达线索,S3b,Lectin–胁迫候选,S4b,旁证不足,S5b,未检得稻本体KO/OE直接改变耐盐的论文,No,No
+OS07G0686800,,S1b,S2a,RLCK调控ABA/ROS稳态；OE↑耐盐,S3a,ABA–ROS–RLCK信号轴,S4a,RLCK在逆境中保守；本基因稻体因果成立,S5a,过表达提高盐耐；机制含ROS清除与渗透调节（Gene 2021等）,Yes,Yes
+OS07G0687900,,S1b,S2b,RFO合成；在稻中多为表达/抗旱证据,S3b,渗透保护物质通路候选,S4b,AtGolS2在稻中促旱耐作旁证；本基因盐因果未证,S5b,未检得OsGolS2稻本体KO/OE直接改变耐盐（多为表达/异源）,No,No
+OS07G0694000,,S1b,S2a,PI-PLC→Ca2+信号；促进盐耐；突变盐敏/OE耐盐↑,S3a,Inositol phospholipid–Ca2+信号通路（核心）,S4a,PI-PLC机制保守；稻体因果成立,S5a,New Phytol 2017：遗传与生化证据表明OsPLC1促进耐盐；突变盐敏、OE逆转,Yes,Yes
+OS08G0180300,,S1b,S2b,表观调控；与免疫/BR互作相关,S3b,表观-盐应答候选（缺直接）,S4b,Snf2通路保守；本基因盐因果未证,S5b,未见BRHIS1在稻本体KO/OE直接改变耐盐的研究（多为免疫/表达）,No,No
+OS08G0183900,,S1b,S2b,次生代谢；盐下表达诱导,S3b,黄酮/木质素代谢—盐候选,S4b,跨物种旁证不足以达一一正交,S5b,无稻本体KO/OE直接盐表型；现有为表达/组学,No,No
+OS08G0206400,,S1b,S2a,Na+可渗透转运体；调控木质部Na+回收→排除,S3a,离子稳态/SOS–HKT–HAK网络（核心外排/回收）,S4a,离子通道/转运保守；稻体因果CRISPR已证,S5a,Frontiers Plant Sci 2021：oshak12盐敏、CRISPR线删除体验证；机制为回收木质部Na+降低地上部积累,Yes,Yes
+OS08G0366200,,S1b,S2b,昼夜节律因子；家族成员OsELF4a已证正调盐耐,S3b,昼夜节律—盐应答交互候选,S4b,与OsELF4a为旁系同源，功能不可直接外推,S5b,未见OsELF4c稻本体KO/OE直接盐表型；相关研究集中于OsELF4a,No,No
+OS08G0408200,,S1b,S2b,WD40/DWD;盐诱导表达,S3b,表观/泛素化平台候选,S4b,跨物种WD40旁证；本基因稻体无因果,S5b,Oryzabase与家族综述标注盐响应，未见稻体KO/OE→盐表型,No,No
+OS08G0408500,,S1b,S2b,ERF转录因子；盐处理诱导,S3b,乙烯/ABA转录网络候选,S4b,他作物/稻体多为抗旱实证；盐表型证据不足,S5b,2017 Plant Biotech J:表达受盐诱导但主要验证抗旱；未给出稻体盐表型因果,No,No
+OS08G0434300,,S1b,S2b,有GWAS/启动子多态与盐相关线索,S3b,能量/有机酸代谢候选,S4b,家族/表达旁证；本基因稻体无因果,S5b,基因组鉴定提示与盐耐相关，但缺KO/OE直接盐表型,No,No
+OS08G0445700,,S1b,S2a,OsTPS8促进栓皮质沉积、提高盐耐,S3a,T6P/糖信号–ABA–蜡质/木栓质通路,S4a,糖信号–耐盐机制保守；本基因稻体因果成立,S5a,New Phytologist 2019：OE提升盐耐且无产量罚分；解析SAPK9调控,Yes,Yes
+OS08G0468100,,S1b,S2b,NR/NO在萌发期盐耐中有作用线索,S3b,NR–NO–ABA互作候选,S4b,路径保守但本基因缺稻体盐因果,S5b,NR模块与盐萌发有关，但缺OsNR1本基因KO/OE→盐表型的稻体论文,No,No
+OS08G0492500,,S1b,S2a,ABA依赖UPS调控；OE↑盐耐,S3a,ABA–UPS–应激响应通路,S4a,E3与胁迫保守；本基因稻体因果成立,S5a,J. Plant Biol. 2014：OE提高盐/旱耐并提高ABA水平与应答基因,Yes,Yes
+OS08G0497600,,S1b,S2b,WD40/DWD；盐诱导表达,S3b,表观/蛋白稳态平台候选,S4b,旁证不足以达一一正交因果,S5b,表达与调控研究为主，缺稻体KO/OE→盐表型,No,No
+OS08G0512400,,S1b,S2b,AHL家族；盐/旱表达响应,S3b,表观/转录调控候选,S4b,AHL1等有抗旱因果；本基因未证,S5b,全基因组家族/条目标注；缺稻体因果盐表型,No,No
+OS08G0546800,,S1b,S2a,负调控盐/旱耐；RNAi↑耐盐、OE↓,S3a,HSF–ABA/ROS–应答通路,S4a,HSF逆境调控保守；本基因稻体因果成立,S5a,Plant Cell Reports 2013：OE致盐/旱敏，RNAi增强耐受,Yes,Yes
+OS08G0558200,,S1b,S2a,抗氧化/ROS清除；正调盐耐,S3a,ROS清除与红氧通路,S4a,GRX抗氧化功能保守；本基因稻体因果成立,S5a,Frontiers Plant Sci. 2018：OE显著提高对盐/氧化胁迫耐受,Yes,Yes
+OS09G0109800,,S1b,S2b,Na+/H+ antiporter候选；注释与数据库提示盐应答,S3b,离子稳态候选（缺稻体核心通路直接证据）,S4b,NHA类在植物保守，但本基因稻内缺高置信一一正交因果,S5a,Oryzabase/稻基因库有注释；公开稻本体KO/OE直接改变耐盐的论文未检得,Yes,Yes
+OS09G0130800,,S1b,S2b,复制解旋/核酸代谢；盐应答证据缺失或间接,S3b,DNA复制-应激候选（无通路核心节点证据）,S4b,跨物种同源功能与盐耐关联不足,S5b,未见水稻本体KO/OE直接改变耐盐的研究,No,No
+OS09G0299200,,S1b,S2b,MYB-CC转录因子；文献多为表达/推断,S3b,转录网络候选（缺直接通路证据）,S4b,MYB-CC在逆境中常见，但本基因无稻体因果,S5b,未见稻本体KO/OE直接改变耐盐的论文,No,No
+OS09G0306400,,S1b,S2a,ABA介导；OE增强盐/旱耐受,S3a,ABA–应答基因网络（核心TF）,S4a,bZIP盐应答保守；本基因稻体因果成立,S5a,PMID:23918260 等报道OE显著提高稻耐盐/耐旱,Yes,Yes
+OS09G0322000,,S1b,S2b,STP家族；表达层面盐诱导,S3b,糖转运-渗透调节候选（缺直接因果）,S4b,他种或家族旁证（如GMST1）不足以外推本基因,S5b,未见OsSTP14/25在稻本体KO/OE直接改变耐盐的论文,No,No
+OS09G0512700,,S1b,S2a,ER折叠/蛋白稳态；调控盐应答,S3a,ER–UPR–ABA/ROS互作通路,S4a,Hsp70-NEF通路保守；本基因稻体证据,S5a,Plant Physiol 2021：遗传证据表明OsFes1C参与盐胁迫响应,No,No
+OS09G0522000,,S1b,S2a,转录激活耐盐/旱/冷响应基因,S3a,DREB1/CBF核心通路（盐/旱/冷）,S4a,DREB1模块保守；本基因稻体OE改善盐耐,S5a,Plant Cell Physiol 2006/Dubouzet 2003：OE OsDREB1B 改善稻对高盐等逆境耐受,Yes,Yes
+OS09G0522200,,S1b,S2a,转录激活耐盐/旱/冷基因；OE增强耐受,S3a,DREB1/CBF核心通路,S4a,模块保守；稻体OE改善盐耐,S5a,Plant J 2003 / PCP 2006：OE OsDREB1A 提升稻对高盐耐受,Yes,Yes
+OS09G0557700,,S1b,S2a,调控抗坏血酸/氧化还原；正向耐盐与产量,S3a,抗氧化/AsA稳态通路（核心）,S4a,细胞色素b561通路保守；本基因稻体因果成立,S5a,Plant Physiol 2023：OsCYBDOMG1正调盐耐、株型和产量,Yes,Yes
+OS09G0571200,,S1b,S2a,C2结构域膜靶向；必需的盐耐因子,S3a,膜信号/离子–ROS互作通路,S4a,C2域功能保守；本基因稻体突变/补偿证据,S5a,2019报道：突变盐敏、OE增强耐盐；影响SOS1/NHX4表达,Yes,Yes
+OS10G0370500,,S1b,S2b,细胞壁/糖苷水解；盐下表达线索,S3b,细胞壁/碳代谢候选（缺直接因果）,S4b,跨物种β-葡萄糖苷酶旁证，不足以外推本基因,S5b,未检得稻本体KO/OE直接改变耐盐；仅数据库/表达提示,No,No
+OS10G0415300,,S1b,S2a,GSH/GSSG红氧稳态；gr3盐敏，互补恢复,S3a,ROS清除核心通路（GSH还原循环）,S4a,GR抗氧化作用保守；稻体有因果,S5a,Plant Mol Biol 2015：gr3盐敏，C1互补恢复耐盐；调节GSH/GSSG比值,Yes,Yes
+OS10G0415900,,S1b,S2b,H3乙酰化与盐应答相关；缺本基因稻体盐表型,S3b,表观–盐应答候选（非核心节点直接证据不足）,S4b,GCN5机制保守，但本基因尚缺稻体因果,S5b,目前见到为表达/乙酰化变化；未见KO/OE直接改变稻耐盐,No,Yes
+OS10G0431000,,S1b,S2a,负调控逆境；突变提高盐耐/田间产量↑,S3a,UPS–氧化胁迫/盐应答通路,S4a,PQT3通路跨物种保守；稻体因果成立,S5a,Plant Cell Environ. 2020：ospqt3盐/百草枯耐受↑，盐田间产量↑；功能为应答关断开关,Yes,Yes
+OS10G0457700,,S1b,S2b,家族/条目标记盐相关,S3b,表观–盐应答候选,S4b,Snf2家族部分成员有盐因果；本基因未证,S5b,未见KO/OE直接改变稻耐盐的论文（Oryzabase条目）,No,No
+OS10G0478900,,S1b,S2a,调控衰老/免疫/盐；nbl1盐耐↑（负调）,S3a,ROS/防御–盐应答交叉通路,S4a,保守胁迫节点；稻本体因果成立,S5a,Rice 2021：nbl1突变对NaCl更耐/更易病；定义其为盐耐调控因子,Yes,Yes
+OS10G0492800,,S1b,S2a,去磷酸化并失活CatC→负调盐耐,S3a,H2O2稳态/ROS–抗氧化通路（核心）,S4a,CatC–ROS通路保守；稻体因果成立,S5a,Plant Cell 2023：PC1去磷酸化OsCATC致盐敏；PC1为盐耐负调控,Yes,Yes
+OS10G0521000,,S1b,S2a,水解海藻糖→调控渗透/能量；OE耐盐↑,S3a,糖信号/渗透保护通路,S4a,肌醇/海藻糖代谢在植物保守；稻体因果成立,S5a,Planta/JIPB 2019-2020：OsTRE1过表达增强盐耐；功能性trehalase,Yes,Yes
+OS10G0533600,,S1b,S2a,盐诱导激活；磷酸化并降解IPA1→耐盐↑,S3a,MAPK核心通路（MKK–MPK4–TF）,S4a,MAPK盐通路保守；稻体因果成立,S5a,J. Genet. Genomics 2022：OsMPK4–IPA1通路正调稻耐盐；遗传/生化齐备,Yes,Yes
+OS10G0563600,,S1b,S2a,蛋白修复/抗氧化；OE增强盐存活/耐受,S3a,ROS修复–抗氧化通路,S4a,MSR途径保守；稻本体OE有证据,S5a,Physiol Plant 2009：OsMSRA4.1过表达稻对盐更耐；抗氧化机制支持,Yes,Yes
+OS10G0577700,,S1b,S2a,叶绿体SKL2与OsASR1互作；ROS清除/ABA响应→正调盐耐,S3a,ABA–ROS互作/抗氧化通路（实验证据）,S4a,SK/ASR模块跨物种保守；本基因稻体有因果,S5a,Jiang 2022：OE增强耐盐，RNAi/突变盐敏；定位叶绿体；调控抗氧化与ABA响应,Yes,Yes
+OS10G0579100,,S1b,S2b,OSCA家族盐/渗透诱导；本基因稻体因果未明,S3b,Ca2+盐感受候选（缺稻体核心节点证据）,S4b,他物种与家族层面支持，但本基因在稻中无KO/OE盐表型,S5b,现有为家族综述/异源系统；未见稻本体操纵直接改变盐耐,No,Yes
+OS11G0127600,,S1b,S2a,ABA响应型NAC；正调盐耐（稻本体）,S3a,ABA–转录网络（核心TF节点）,S4a,NAC–盐耐保守；本基因稻体因果成立,S5a,Zhang 2020：OE增强耐盐，KO盐敏；明确ABA依赖机制,Yes,Yes
+OS11G0151400,,S1b,S2a,JA-Ile去活化；下调JA信号→提高盐耐（家族/本位点强表达）,S3a,JA–盐胁迫通路（CYP94家族）,S4a,CYP94C在稻/拟南芥保守；稻内家族成员直接因果已证,S5a,PCP 2015等：提高CYP94家族表达增强稻盐耐；文献指出C2a/C2b参与JA-Ile氧化与盐耐,No,Yes
+OS01G0348900,,S1b,S2a,Jacalin类凝集素；与E3 OsRMT1轴正调盐耐,S3a,JA/蛋白稳态–盐通路候选（新近机制）,S4a,JRL在逆境中保守；本基因稻体因果新证,S5a,Zhang 2025：OsMBL1为正调因子；KO生存率下降，E3 OsRMT1通过泛素化降解其抑制盐耐,Yes,Yes
+OS06G0183100,,S1b,S2a,负调盐耐；自然等位/hst1突变/CRISPR突变均↑盐耐,S3a,CK–盐耐串扰（与离子/抗氧化基因网络）,S4a,B型RR在单/双子叶保守；稻体因果充分,S5a,Takagi 2015及后续：hst1（OsRR22）赋予盐耐；2022–2024育种与机理研究确认,Yes,Yes
+OS01G0664100,,S1b,S2a,Mg2+摄取与Na+/Mg2+转运；框移突变sitl1→盐不敏感（低Na/Mg内流）,S3a,离子稳态（Mg2+–Na+互作）,S4a,Mg2+通道在盐耐中保守；本基因稻体有遗传证据,S5a,Lim 2022：CRISPR与TILLING显示OsCZMT1突变致盐不敏感；定位为CorA-like转运体,Yes,Yes
+OS02G0606700,,S1b,S2a,维持分生组织/细胞周期；突变体对盐极敏,S3a,细胞周期–盐应答核心节点,S4a,功能/表型在稻内明确；并有跨物种功能互补,S5a,Ogawa 2011：rss1失功能盐下生长不可逆；RSS1为盐敏关键因子,Yes,Yes
+OS07G0575700,,S1b,S2b,现有研究聚焦病害JA/萜类通路；与盐无因果,S3b,RLK–盐通路旁证（SIT1/STRK1为相关但不同基因）,S4b,同类RLK有盐因果，但本基因无,S5b,未检得OsBDR1/OsSIT3稻本体KO/OE直接改变盐耐；SIT1/STRK1系其他基因,No,No
+OS09G0325700,,S1b,S2a,ABA负调控因子；KO提升盐耐,S3a,ABA–SnRK2–PP2C核心通路,S4a,PP2C通路在植物保守；本基因稻体因果新证,S5a,Sci Rep 2025：OsPP2C68为ABA负调控；敲除增强盐/旱耐受并影响气孔与渗透物,No,No
+OS02G0150700,,S1b,S2a,UPS/E3负调盐应答；突变/表达改变盐表型,S3a,UPS–ABA/ROS应答通路,S4a,RING E3调控盐耐保守；本基因稻体实证,S5a,Plant Mol Biol 2020: OsDHSRP1为盐/旱/热诱导E3，负调逆境基因表达，操纵改变盐耐,No,No
+OS02G0606200,,S1b,S2b,B-box家族；RNG1条目与胁迫相关,S3b,光信号–胁迫串扰候选（缺盐通路核心证据）,S4b,BBX家族在逆境中保守，但本基因稻内缺盐因果,S5b,未检得RNG1/OsBBX4在稻本体KO/互补/OE直接改变盐表型的论文,No,No
+OS02G0787300,,S1b,S2a,MAPK级联；新等位OsSTS（OsMKK4）影响盐耐,S3a,MAPK核心通路（MKK–MPK）,S4a,MAPK盐通路保守；等位差异稻体因果,S5a,Rice 2023：OsSTS为OsMKK4新等位，影响籽粒大小与耐盐；另有MKK1–MPK4通路调盐耐,Yes,Yes
+OS04G0493000,,S1b,S2a,正调盐耐；KO盐敏、离子失衡,S3a,离子稳态/转录网络（核心TF）,S4a,BBX在胁迫中保守；本基因稻体因果成立,S5a,Frontiers Plant Sci 2023：定位qSTS4，功能缺失型盐敏，定义为盐耐基因,Yes,Yes
+OS05G0138300,,S1b,S2b,RCI2家族与膜电位/逆境相关,S3b,膜稳态候选（稻体直接因果不足）,S4b,他物种与家族旁证；稻内本基因缺直接盐因果,S5b,未见OsLti6b稻本体操纵直接改变盐耐；多为家族/综述与异源系统,No,No
+OS05G0428700,,S1b,S2a,K+再分配维持Na+/K+；正调盐耐与产量,S3a,离子稳态核心通路（K+/Na+平衡）,S4a,Shaker通道在盐耐保守；本基因稻体因果,S5a,Plant Cell Environ 2021：OE提升盐耐与产量；机制为K+从茎叶回运至根,Yes,Yes
+OS05G0572000,,S1b,S2b,候选qSTS5基因；现有实验证据偏向耐冷,S3b,ABA/ERF网络候选（盐通路直证缺）,S4b,AP2/ERF保守；但本基因稻体盐因果未明,S5b,Oryzabase注记为qSTS5候选；近作聚焦耐冷，未见稻本体盐表型因果,No,No
+OS06G0318700,,S1b,S2b,负调盐应答（异源系统证据）；稻体因果不足,S3b,UPS–盐应答候选,S4b,RING–盐通路保守；但本基因稻内证据缺失,S5b,Env. Exp. Bot. 2018在拟南芥过表达致盐敏；未见稻本体因果,No,No
+OS08G0135400,,S1b,S2b,家族成员有盐因果（如OsRFPHC-4），本基因未证,S3b,UPS–离子/ROS调控候选,S4b,同家族保守；本基因缺稻体盐因果,S5b,未检得OsSIRHC-2稻本体操纵直接改变盐耐的论文,No,No
+OS01G0172200,,S1b,S2a,正调盐耐；OE改善ROS与抗氧化,S3a,RNA代谢–抗氧化通路,S4a,DEAD-box在逆境中保守；本基因稻体因果成立,S5a,Plant Mol Biol Rep/Planta 2023：OE OsDB10增强盐胁迫耐受并上调抗氧化途径,Yes,Yes
+OS01G0200700,OsMT-3a,S1b,S2a,Metallothionein; ROS scavenging; metal binding,S3b,,S4b,,S5b,"Upregulated by salinity; heterologous overexpression in Arabidopsis improves salt tolerance, but no rice causal genetics reported",No,Yes
+OS01G0292700,OsIF/OsIFL,S1a,S2a,Cytoskeleton; K+/Na+ homeostasis; chloroplast/PSI–PSII protection; ROS mitigation,S3b,,S4b,,S5a,Rice overexpression enhances salt tolerance; knock-down increases sensitivity; maintains K+/Na+ balance and photosystems under NaCl,Yes,Yes
+OS01G0343300,OsGATA (putative),S1a,S2b,GATA TF; stress/ABA-responsive (putative),S3b,,S4b,,S5b,No direct rice causal genetics for this locus under salinity located; annotation suggests abiotic/ABA relevance,No,Yes
+OS01G0633400,,S1b,S2b,,S3b,,S4b,,S5b,No curated salt-tolerance functional data located,No,No
+OS01G0656200,,S1b,S2b,ABA signaling (family-level),S3b,,S4b,,S5b,Family implicated in salt/ABA responses; no direct causal report for this locus in rice located,No,No
+OS01G0837500,,S1b,S2a,,S3b,,S4b,,S5b,No rice salt-tolerance causal genetics located,No,Yes
+OS01G0847200,OsVTC1-1,S1b,S2a,Ascorbate biosynthesis; ROS detoxification,S3a,Ascorbate and aldarate metabolism (KEGG),S4a,Arabidopsis vtc1 ortholog mutants are salt-sensitive; conserved AsA pathway,S5b,Rice OsVTC1-1 knockdown affects stress tolerance (temperature); no direct rice salt phenotype found; strong ortholog evidence,No,Yes
+OS02G0132300,OsRFPv6,S1b,S2b,Ubiquitin-mediated proteolysis (putative),S3b,,S4b,,S5a,No direct rice salt-tolerance causal genetics located for this locus,Yes,Yes
+OS02G0180700,OsCCR21,S1b,S2b,Lignin biosynthesis; phenylpropanoid (stress-associated),S3b,,S4b,CCR family members linked to stress responses; no 1:1 ortholog with salt phenotype,S5b,Expression induced by salt in rice; no direct causal genetics for OsCCR21 itself,No,No
+OS03G0219200,OsCSD3,S1b,S2a,ROS解毒; Cu/Zn-SOD; 超氧阴离子歧化,S3b,,S4b,,S5b,有生化功能与氧化胁迫耐受证据；尚缺在水稻本体改变盐胁迫表型的因果遗传实验,No,Yes
+OS03G0332400,"GLYII-2, OsGLYII2, GLYII2, OsGLYII-2",S1b,S2a,甲基乙二醛(MG)解毒; Glyoxalase II; GSH依赖,S3a,MG解毒/糖酵解旁路; Glyoxalase通路,S4a,同源GLYII在拟南芥/番茄等调控盐胁迫；作用机制保守（MG→D-乳酸）,S5a,Plant J 2014：OsGLYII-2过量/互补改善盐下光合与抗氧化；直接提升水稻耐盐,No,Yes
+OS03G0635100,RGG1,S1b,S2a,G蛋白信号; ROS稳态,S3a,异源三聚体G蛋白信号通路; 抗盐信号调控,S4a,作物中Gγ亚基影响盐耐性（多物种保守）,S5a,Transgenic水稻：RGG1增强耐盐且不减产；上调抗氧基因,Yes,Yes
+OS03G0746500,"OsSUV3, SUV3",S1b,S2a,线粒体RNA代谢; 激素/ROS稳态,S3b,,S4a,"植物SUV3保守于线粒体去代谢体, 参与胁迫恢复",S5a,OsSUV3转基因水稻在盐胁迫下维持激素水平、减轻生长受损,Yes,Yes
+OS03G0820400,OsZFP15,S1b,S2a,C2H2转录因子; ABA分解(OsABA8ox2↑),S3a,ABA信号/代谢通路,S4a,C2H2 ZFP家族在多种植物中保守调控盐/旱,S5a,过表达OsZFP15促进ABA分解并提高幼苗耐盐/耐旱,Yes,Yes
+OS04G0201500,OsAAT30,S1b,S2b,,S3b,,S4b,,S5b,杂交优势研究提示OsWRKY72–OsAAT30模块与耐盐杂种优势相关，缺直接因果遗传验证,No,Yes
+OS04G0348400,OsPUB7,S1b,S2a,E3泛素连接酶; 蛋白降解调控盐逆境,S3b,,S4a,PUB家族在植物中保守调控逆境；多物种证据,S5a,CRISPR敲除OsPUB7显著提高水稻耐盐/耐旱，离子渗漏↓、脯氨酸↑,Yes,Yes
+OS04G0571200,"OsSIRH2-14, OsRFPH2-14",S1b,S2a,RING-H2 E3连接酶; 靶向Na+转运体(HKT),S3a,离子稳态/Na+转运(HKT2;1)与26S蛋白酶体,S4a,RING型E3调控盐耐在多物种保守,S5a,OsSIRH2-14促进耐盐：调控OsHKT2;1并经26S通路降解盐相关蛋白,Yes,Yes
+OS04G0671700,OsDJ-1C,S1b,S2a,Glyoxalase III; GSH非依赖MG解毒; ROS/还原力稳态,S3a,MG解毒/糖酵解旁路; GLYIII,S4a,DJ-1/GLYIII在植物中广泛保守并与逆境相关,S5a,Planta 2024：水稻过表达OsDJ-1C提高盐/旱耐受、改善根系与产量,Yes,Yes
+OS07G0187200,OsD-LDH2,S1b,S2a,D-乳酸脱氢酶；连接MG→丙酮酸；ROS缓解,S3a,MG解毒终端(D-乳酸→丙酮酸); 呼吸代谢连接,S4a,D-LDH在拟南芥/番茄等保守；与逆境关联,S5a,在水稻中沉默OsD-LDH导致盐敏感；功能获得/缺失均指向耐盐作用,Yes,Yes
+OS07G0615900,OsGATA23,S1b,S2b,,S3b,,S4b,,S5b,主要为表达/网络证据；未见在水稻本体通过得失功能改变耐盐的直接因果研究,No,No
+OS08G0157600,OsCCA1/OsLHY-like,S1b,S2a,昼夜节律→ABA信号; PP2C/bZIP46调控,S3a,ABA信号（circadian→ABA）,S4a,拟南芥CCA1/LHY调控盐下ABF3与萌发；稻中OsLHY突变降低耐盐,S5a,EMBO J/Plant Physiol等：OsCCA1为耐盐/渗透/干旱必需；直接因果：过表/突变体改变耐盐；DAPS/ChIP揭示ABA相关直接靶标,Yes,Yes
+OS08G0199300,OsYchF1,S1b,S2b,,S3b,,S4b,,S5b,OsYchF1/OsGAP1对盐胁迫有功能联系（异源/调控蛋白因果），但未见对OsYchF1本身在稻体内耐盐的因果遗传学报告,No,No
+OS08G0430500,OsGF14c (14-3-3C),S1b,S2a,离子/Na+摄取抑制; 甲基乙二醛(MG)降低,S3b,,S4a,14-3-3在多物种为保守的胁迫调控支架蛋白,S5a,Front Plant Sci 2023：水稻过表达OsGF14C增强耐盐（MG降低与Na+摄取下降）且兼有稻瘟病权衡,Yes,Yes
+OS08G0436700,ONAC063,S1b,S2b,,S3b,,S4b,,S5b,Planta 2009等：为盐诱导NAC；异源拟南芥过表提高耐盐；未见水稻本体因果验证,No,No
+OS08G0537900,OsERF-like (ERF3-like),S1b,S2b,,S3b,,S4b,,S5a,条目为乙烯响应因子相似蛋白；缺少针对该位点的水稻耐盐因果论文,Yes,Yes
+OS09G0127300,OsCCR17,S1b,S2b,木质素/苯丙烷代谢（诱导）,S3b,,S4b,,S5b,CCR17在多种胁迫诱导（含高盐），但未检得对OsCCR17进行得失功能并改变稻耐盐表型的直接报告,No,No
+OS09G0478600,OsRF1 (RING E3),S1b,S2a,ABA信号正调控; 靶向PP2C（OsPP2C09）,S3a,ABA信号通路（PP2C结点）,S4a,E3-PP2C模块在多物种保守调节ABA/盐响应,S5a,Front Plant Sci 2022：过表达OsRF1提高耐盐/耐旱并提升内源ABA，物理互作PP2C；遗传/生化证据充分,Yes,Yes
+OS09G0537700,OsRNS4,S1b,S2b,,S3b,,S4b,,S5a,Plant Sci 2014：水稻过表达OsRNS4增强耐盐并改变光形态建成反应；ABA/PEG诱导,Yes,Yes
+OS02G0553200,OsAPX8 (tAPX),S1b,S2a,叶绿体抗坏血酸过氧化物酶；ROS清除,S3b,,S4a,APX家族在植物中保守调控ROS与逆境,S5a,研究显示NaCl可诱导OsAPX8表达/活性，且OsAPX8在稻中主要报道为细菌性早枯病抗性；未检得直接耐盐因果遗传操作,Yes,Yes
+OS03G0167200,OsIQM2,S1b,S2b,,S3b,,S4b,,S5b,IQM家族在稻中对NaCl/ABA有响应，但未见OsIQM2在水稻本体通过得失功能改变耐盐表型的因果论文,No,No
+OS11G0151002,OsIQM7,S1b,S2b,,S3b,,S4b,,S5b,IQM家族表达随NaCl/ABA变化；未检得OsIQM7在稻体内耐盐因果遗传学验证,No,No
+OS03G0390200,OsSAPK1 (SnRK2.1),S1b,S2a,ABA依赖应答; SnRK2激酶; 离子/渗透稳态,S3a,ABA信号通路（SnRK2核心节点）,S4a,SnRK2家族在拟南芥/小麦等调控盐耐保守,S5a,BMC Plant Biol 2018：OsSAPK1过表提高稻幼苗耐盐；与OsSAPK2协同为正调控因子,Yes,Yes
+OS01G0182600,OsGI (GIGANTEA),S1b,S2a,昼夜钟→胁迫调控; 负调控耐盐/渗透,S3b,,S4a,GI在拟南芥负调控盐/离子稳态（SOS/时钟交叉）; 稻中保守,S5a,PCE 2021：CRISPR osgi-101突变体在盐胁迫下更耐受；Front Plant Sci 2016：osgi对PEG耐受增强,No,No
+OS02G0573500,OsSTP10 (sugar transporter),S1b,S2b,,S3b,,S4b,,S5b,未检得针对OsSTP10的稻体内耐盐因果研究；相关为表达/家族层面证据（如OsGMST1）,No,No
+OS03G0258200,OsCXE3.2,S1b,S2b,羧酸酯酶家族; 胁迫响应（表达）,S3b,,S4b,,S5b,缺少该位点在水稻中改变耐盐表型的因果论文,No,No
+OS03G0790500,OsCXE3.3,S1b,S2b,羧酸酯酶家族; 胁迫响应（表达）,S3b,,S4b,,S5b,缺少该位点在水稻中改变耐盐表型的因果论文,No,No
+OS04G0452700,OsMST1/OsSTP1,S1b,S2b,,S3b,,S4b,,S5b,单糖转运体家族与盐有关（如OsGMST1），但未见OsMST1/OsSTP1本位点的稻体内因果验证,No,No
+OS07G0100300,OsSQD2.1,S1b,S2a,黄酮糖苷化→ROS清除; 叶绿体脂类代谢,S3a,黄酮生物合成/抗氧化; 胁迫代谢,S4b,,S5a,PCE 2019：sqd2.1突变盐/旱敏感、过表增强耐盐；A7G补救表型，直接稻本体因果,No,No
+OS07G0162600,OsCXE7.3,S1b,S2b,羧酸酯酶家族; 胁迫响应（表达）,S3b,,S4b,,S5b,未检得该位点在水稻中对耐盐有得失功能因果证据,No,No
+OS09G0369000,OsDREB6,S1b,S2a,DREB/ABA-independent应答;渗透与ROS调节,S3b,,S4a,DREB模块在禾本科保守（DREB1/2/6等）,S5a,过表达/干扰在水稻本体改变耐盐：OsDREB6 OE耐盐增强、RNAi更敏感；同时提升渗透调节与抗氧化指标,Yes,Yes
+OS09G0394500,OspGlcT3 (pGlcT3),S1b,S2b,,S3b,,S4b,,S5b,pGlcT转运体功能主要在叶绿体糖输出；缺少水稻本体耐盐因果验证,No,No
+OS09G0452300,OspGlcT4 (pGlcT4),S1b,S2b,,S3b,,S4b,,S5b,同pGlcT家族；未见该位点在稻体内耐盐得失功能证据,No,No
+OS02G0551100,OsSAPK6 (SnRK2.6),S1b,S2a,ABA核心激酶; 离子/渗透稳态调控,S3a,ABA信号通路（SnRK2核心）,S4a,SnRK2家族在禾本科保守调控盐/渗透应答,S5b,有冷/旱证据与ABA调控；未检得在稻体内针对盐胁迫的直接得失功能论文,No,Yes
+OS03G0610900,OsSAPK10 (SnRK2.10),S1b,S2a,ABA依赖型应答; 下游bZIP/NCED调控,S3a,ABA信号通路,S4a,SnRK2/AREB轴在单子叶保守,S5b,目前更多为干旱/ABA研究；未检得在稻体内盐胁迫下的因果遗传论文,No,Yes
+OS02G0469600,OsACP1（cysteine proteinase）,S1b,S2b,,S3b,,S4b,,S5b,有诱导与综述提及‘可能增强耐盐’，缺乏可核验的稻本体因果论文,No,No
+OS01G0510100,OsMKK6 (MAPKK6),S1b,S2a,MAPK级联; 胁迫信号整合,S3a,MAPK信号通路（MKK6→MPK3/4）,S4a,MAPK通路在多植物耐盐中保守,S5a,构建活性型OsMKK6EE过表达：水稻显著增强耐盐（根/苗生长、MBP磷酸化）,Yes,Yes
+OS01G0797600,OsERF3 / AP37,S1b,S2a,ERF/乙烯-ABA交叉; 胁迫转录调控,S3b,,S4a,AP2/ERF保守；多作物增强耐盐/旱,S5a,AP37在水稻过表达增强干旱与‘高盐’耐受（营养期），并提高产量；转录组指向应激基因上调,Yes,Yes
+OS01G0847600,OsAKR1 (aldo-keto reductase),S1b,S2a,MG/醛类解毒→ROS稳态,S3b,,S4a,AKR解毒机制在植物保守,S5b,本体实验证据主要为氧化/热耐受；未检得针对盐胁迫的稻本体因果论文,No,Yes
+OS01G0867300,OsbZIP12 / OsABF1,S1b,S2a,AREB/ABF-bZIP; ABA应答; 逆境转录网络,S3a,ABA信号通路（ABF核心节点）,S4a,ABF在单子叶/双子叶保守调控盐/旱,S5b,JXB2017证实其改造显著提升抗旱；有文献称abf1突变盐敏但缺少原始盐表型细节，谨列S5b,No,Yes
+OS02G0203700,OsSRZ1/LS1,S1b,S2b,,S3b,,S4b,,S5b,LS1/OsSRZ1为C2H2锌指，主要调控衰老与ROS；未检得在水稻本体中通过得失功能改变耐盐的直接论文,No,No
+OS03G0719100,OsSIZ2 (SUMO E3),S1b,S2b,,S3b,,S4b,,S5b,OsSIZ2功能研究以发育与Pi稳态为主；缺少稻本体‘盐+得失功能’因果验证,No,No
+OS05G0125000,OsSIZ1 (SUMO E3),S1b,S2b,,S3b,,S4b,,S5b,NaCl可增加SUMO缀合，但未见针对OsSIZ1在水稻体内直接改变耐盐表型的因果遗传报告,No,Yes
+OS05G0530400,OsSPL7 / OsHsfA4d,S1b,S2b,,S3b,,S4a,HSF家族在多物种调控胁迫（Cd/热）；盐证据不足,S5b,水稻spl7/hsfA4d主对应热/Cd胁迫；未检得盐胁迫因果遗传,No,No
+OS05G0574500,OsRAN2,S1b,S2b,,S3b,,S4a,RAN在植物核胞质运输保守,S5a,OsRAN2过表达导致水稻和拟南芥对盐和ABA超敏，互补/过表因果明确（负调控）,Yes,No
+OS01G0101600,OsSCR106,S1b,S2a,剪接体/可变剪接; ABA-盐响应,S3b,,S4a,SR家族在多植物逆境中保守,S5a,scr106敲除对盐、ABA、低温更敏感；互补线救回；盐下转录与可变剪接广泛改变（稻本体）,No,No
+OS01G0135700,OsCML16,S1b,S2a,Ca2+信号; CML介导逆境; 连接CAMTA-DREB1B轴,S3a,Ca2+-CAMTA-DREB模块（耐盐关联）,S4a,CML/CAMTA在多物种盐/冷响应保守,S5b,已有研究表明上游OsCAMTA1调控OsCML16并提升稻盐耐；但对OsCML16本体得失功能的盐表型尚缺,No,Yes
+OS01G0185400,OsCBE1 (C4E3 WD40受体),S1b,S2a,Cullin4 E3泛素连接酶; 胁迫响应调控,S3b,,S4a,Cullin4-E3在植物逆境中保守,S5b,OsCBE1调控非生物胁迫与产量（冷/ABA证据充分）；尚未检得稻体内盐胁迫因果,No,No
+OS01G0279900,OsTGA5/OsbZIP3 (HBP1b),S1b,S2a,bZIP-TGA; ROS稳态; 叶绿体功能维持,S3a,ABA/抗氧化网络（AREB类旁路）,S4a,bZIP在多物种耐盐保守,S5a,HBP1b/OsTGA5在水稻中过表达提升耐盐与耐旱，维持叶绿素和抗氧化体系（稻本体因果）,Yes,Yes
+OS01G0559500,WSL (PPR),S1b,S2b,叶绿体RNA剪接/翻译; 影响叶绿体发育,S3b,,S4a,PPR在胁迫/叶绿体基因表达调控保守,S5b,WSL突变导致条斑与光合受损；文献未见其在水稻体内直接改变耐盐的得失功能实验,No,No
+OS01G0673600,OsUbc13/UBC13,S1b,S2b,,S3b,,S4b,,S5b,克隆/家族研究与免疫调控为主；未见在稻体内‘盐+得失功能’直接表型。,No,No
+OS01G0750100,OsWRKY13,S1b,S2a,转录抑制SNAC1→降低盐耐（负调控）,S3b,,S4a,WRKY在多物种调控逆境保守,S5a,过表达OsWRKY13降低耐盐；与SNAC1/WRKY45-1拮抗，稻本体因果。,Yes,Yes
+OS01G0764800,OsGH3-2,S1b,S2b,,S3b,,S4a,GH3在多物种调控IAA/ABA保守,S5b,稻本体证据集中在旱/冷；未检得‘盐+得失功能’直接表型。,No,No
+OS01G0839200,OsDSR2,S1b,S2b,,S3b,,S4b,,S5a,过表达降低耐盐与耐旱；RNAi/抑制线提高耐盐（负调控），稻本体因果。,Yes,Yes
+OS01G0841600,OscTPI,S1b,S2b,,S3b,,S4a,TPI/MG代谢在植物保守,S5b,MG诱导与机制研究为主；未见稻体内盐耐得失功能。,No,No
+OS01G0844300,OsFKBP20-1b,S1b,S2b,,S3b,,S4a,免疫亲和蛋白家族在逆境保守,S5b,RNA加工/剪接粒研究及表达诱导；未见稻体‘盐+得失功能’因果。,No,No
+OS01G0847700,OsAKR2 (AKR4C14),S1b,S2b,,S3b,,S4a,AKR解毒在多物种逆境保守,S5b,AKR家族在稻中提高氧化/热耐受；针对OsAKR2盐表型的稻体因果未见。,No,No
+OS01G0862800,ONAC059/NAC59,S1b,S2b,,S3b,,S4a,NAC家族广泛参与盐/旱；本位点盐证据不足,S5b,报道多为冷/发育；未见稻体‘盐+得失功能’因果。,No,No
+OS02G0122800,OsRS33,S1b,S2a,SR剪接因子→调控盐下AS与ABA响应,S3b,,S4a,SR剪接在植物逆境中保守,S5a,rs33突变体对盐/低温超敏；显示其正调控盐胁迫耐受（稻本体）。,Yes,Yes
+OS02G0140300,OsCNX6,S1b,S2a,MoCo生物合成→ABA/NR/AO；提高盐/渗透耐受,S3a,ABA生物合成/辅基形成（MoCo）,S4a,CNX途径在被子植物保守,S5a,OsCNX6过表达提升MoCo酶活并提高盐/渗透耐受；互补救回突变体。,Yes,Yes
+OS02G0184900,CYP71D8L,S1b,S2a,GA/CK稳态; 激素-盐耐交互; ROS/叶绿素维持,S3a,激素信号-ABA/GA/CK互作（盐耐关联）,S4a,激素代谢-耐盐在多物种保守,S5a,JXB2020报道CYP71D8L过表达提高水稻对盐/旱耐受（降低GA、影响CK；盐下ROS下降、叶绿素更高）,Yes,Yes
+OS02G0195600,OsSAP4 (ZFP185),S1b,S2b,,S3b,,S4a,A20/AN1 SAP家族多基因在盐/旱有功能，但本位点缺直接稻本体因果,S5b,现有多为表达/启动子分析或异源系统；未检到OsSAP4在稻体内通过得失功能改变耐盐的论文,No,Yes
+OS02G0234300,OsPUB4,S1b,S2a,U-box E3介导蛋白降解; 胁迫响应,S3b,,S4a,PUB家族在盐/旱调控广泛（OsPUB15/67等）,S5b,OsPUB4被鉴定为活性E3并参与胁迫通路，但未检到‘盐+稻体得失功能’直接论文,No,Yes
+OS02G0290600,OsPOP5,S1b,S2b,,S3b,,S4b,,S5b,OsPOP5在E.coli提高耐盐/旱/热；稻本体缺乏因果验证,No,No
+OS02G0576700,OsNAPL6,S1b,S2a,核小体组装H3/H4伴侣; 染色质稳态→逆境适应,S3b,,S4a,NAP家族胁迫调控保守,S5a,Plant Physiology研究：稻中过表达/抑制显示表达量与多种非生物胁迫（含盐）适应正相关,Yes,Yes
+OS02G0654700,OsERF91 (OsBIERF3),S1b,S2a,乙烯/ERF转录调控; 防御-胁迫交叉,S3a,乙烯-ROS调控网络,S4a,ERF家族在盐/旱功能保守,S5b,近年稻本体功能显示影响免疫与冷，但对盐/旱无显著改变；早期异源烟草显示盐耐提高（非稻本体）,No,Yes
+OS02G0657000,ARAG1 (OsAP211),S1b,S2a,DREB/ABA响应; 幼苗/萌发阶段影响,S3a,DREB/ABA通路（盐/渗透）,S4a,AP2/DREB在禾本科保守,S5a,稻本体：ARAG1过表达/干扰改变ABA与盐敏感性（萌发/幼苗期），为盐耐负调控,No,Yes
+OS02G0671100,MAIF1 (F-box),S1b,S2a,Cullin-F-box泛素系统; 根生长-ABA联动,S3b,,S4a,F-box在逆境调控保守,S5a,稻本体：过表达MAIF1降低盐/旱耐受并减弱ABA敏感性→负调控,Yes,Yes
+OS02G0760300,OsFKBP12,S1b,S2a,免疫亲和蛋白/PPIase; 与YchF1/EBP1互作,S3b,,S4a,FKBP在多物种胁迫中有作用,S5a,2020研究提示OsFKBP12为盐耐负调控但主要为异源/推断；2025研究聚焦EBP1正调控，FKBP12作用尚缺稻本体得失功能盐表型,Yes,Yes
+OS02G0782700,OsEREBP1 (ERF70),S1b,S2a,AP2/ERF；与OsRMC等盐负调控节点有转录关联,S3a,乙烯/ROS/盐应答网络,S4a,ERF功能在盐/旱广泛保守,S5b,PLoS ONE 2015在稻本体证实增强旱/淹耐；未见‘盐+得失功能’直接论文（部分综述/次级资料提及但缺原始数据）,No,Yes
+OS02G0813500,OsGR2 (glutathione reductase 2),S1b,S2a,ROS清除/谷胱甘肽还原; NaCl诱导表达(H2O2介导),S3b,,S4a,GR抗氧化模块在植物保守,S5b,NaCl诱导OsGR2/OsGR3表达；稻本体缺少对OsGR2得失功能直接改变耐盐的论文,No,Yes
+OS03G0108600,OsBIRH1 (DEAD-box RNA helicase),S1b,S2b,,S3b,,S4a,DEAD-box RNA解旋酶在多物种胁迫中保守,S5b,OsBIRH1异源过表增强抗氧化/抗病；未见稻本体‘盐+得失功能’,No,No
+OS03G0230300,OsGRP1 (glycine-rich RNA-binding protein),S1b,S2b,,S3b,,S4a,GRP在多物种低温/渗透响应保守,S5b,OsGRP类多为寒冷/渗透证据；未见稻本体盐因果,No,Yes
+OS03G0307900,OsWRKY24,S1b,S2b,,S3b,,S4a,WRKY家族在盐/旱广泛作用,S5a,当前关于OsWRKY24多为形态/ABA/异源系统，缺稻体盐因果,Yes,Yes
+OS03G0414800,OsSnRK1A 10.5kDa亚基,S1b,S2b,,S3b,,S4a,SnRK1中心能量信号通路保守,S5b,SnRK1A在稻碳氮/低氧等研究充分；未见盐+得失功能直接论文,No,No
+OS03G0493500,OsHOX1,S1b,S2b,,S3b,,S4a,HOX在发育/激素中保守,S5b,定位于维管/发育; 数据库提示与盐本体性状无直接因果,No,No
+OS03G0710800,OsGF14h (14-3-3h),S1b,S2b,,S3b,,S4a,14-3-3在盐/渗透中保守（家族层面）,S5b,最新研究聚焦BR/GA发育调控；缺稻体盐得失功能,No,Yes
+OS03G0720700,OsWRKY86,S1b,S2b,,S3b,,S4a,WRKY保守调控逆境,S5b,缺少稻体盐因果论文（他种有WRKY86功能报道）,No,No
+OS03G0757500,GSA1/UGT83A1,S1b,S2a,黄酮糖苷化→ROS稳态; 代谢通量重定向,S3a,黄酮/苯丙烷代谢-抗氧化通路,S4a,UGT与逆境保守,S5a,Nat Commun 2020: GSA1过表增强稻‘耐盐/耐旱/耐热’并增大粒重；代谢通量偏向黄酮糖苷化,Yes,Yes
+OS03G0780400,OsADF2,S1b,S2a,肌动蛋白动态→细胞骨架应激响应,S3b,,S4a,ADF家族在植物逆境中保守,S5b,稻中OsADF2过表主要改善干旱；盐方面以SaADF2异源更强，未见OsADF2稻本体盐效应明确,No,No
+OS03G0820300,OsZFP182/ZOS3-21,S1b,S2a,C2H2 zinc-finger TF; ROS/ABA-responsive promoters,S3b,—,S4a,"C2H2 TFs (e.g., OsZFP213, AtZFPs) enhance salt tolerance; conserved DNA-binding",S5a,Overexpression in rice increases salt tolerance; NaCl treatment improved survival and stress markers,Yes,Yes
+OS03G0820500,OsADF3,S1b,S2b,Actin dynamics/cytoskeleton,S3b,—,S4b,Evidence mainly Arabidopsis/halophyte ADFs; no high-confidence one-to-one causal salt function in rice,S5b,No rice genetic causality; expression/heterologous data only,No,No
+OS03G0832300,OsHYPK,S1b,S2a,NatA N-terminal acetylation; protein homeostasis,S3b,—,S4b,Conservation of HYPK across species; limited direct salt ortholog causality,S5a,oshypk mutants show increased tolerance to abiotic stresses incl. NaCl; perturb acetylome,No,No
+OS03G0858100,OsXPO1,S1b,S2a,Nucleocytoplasmic transport; RAN–XPO1 export,S3b,—,S4a,XPO1/CRM1 function conserved; Arabidopsis XPO1 links to ABA/salt responses,S5a,Overexpression increases salt tolerance in rice; RNAi shows defects,Yes,No
+OS04G0522500,OsGA2ox6,S1b,S2a,GA catabolism; DELLA accumulation; growth–stress tradeoff,S3b,—,S4a,GA2ox stress roles conserved in plants; GA reduction improves salt tolerance,S5a,Ectopic/engineered GA2ox mutants in rice enhance salt tolerance; GA2ox6 central paralog,Yes,Yes
+OS04G0562100,OsLHT5,S1b,S2b,Amino acid transport,S3b,—,S4b,LHT family stress roles mainly expression-level; limited causal salt evidence,S5b,No rice causal genetics for salt with LHT5,No,No
+OS05G0195200,OsTZF1/OsC3H35,S1b,S2a,CCCH tandem zinc-finger; RNA-binding; stress granules/decay,S3b,—,S4a,"TZF family salt functions conserved (e.g., AtTZF1)",S5a,Overexpression in rice increases salt tolerance; RNAi reduces it,Yes,Yes
+OS05G0213500,OsPYL5/RCAR5,S1b,S2a,ABA receptor; ABA–PP2C–SnRK2 core,S3a,Abscisic acid signaling,S4a,PYL/RCAR receptors conserved across plants with stress roles,S5a,Overexpression in rice improves salt and drought tolerance; NaCl assays at vegetative stage,Yes,Yes
+OS05G0247100,OsHI-XIP/DIP3,S1b,S2b,Xylanase inhibitor; JA/herbivory defense,S3b,—,S4b,XIP functions conserved for herbivory; no salt ortholog causality,S5b,No rice salt causality; evidence limited to herbivore resistance and expression,No,No
+OS05G0475400,OsAMTR1/Osh36,S1b,S2b,Amino acid/alanine-glyoxylate aminotransferase; photorespiration,S3b,—,S4b,"Aminotransferase stress roles in plants, but rice salt causality for OsAMTR1 not established",S5b,Overexpression assays for OsAMTR1 mainly in Arabidopsis; no rice causal salt study,No,No
+OS05G0497600,OsAIR1 / OsRING172,S1b,S2b,,S3b,,S4a,RING E3→盐逆家族普遍参与，但本位点为As响应为主,S5b,未检得稻本体盐胁迫下的得失功能因果；多为砷/旱相关,No,No
+OS05G0518600,OsTPS1,S1b,S2a,海藻糖代谢→渗透/ROS稳态; ABA交互,S3a,渗透保护/能量与ABA旁路,S4a,TPS在植物保守影响盐耐,S5a,Planta2011：水稻过表达OsTPS1提升高盐/干旱/低温耐受；互补与代谢指标支持,Yes,Yes
+OS06G0199800,cAMP型GPCR样（OsGPCR1样）,S1b,S2b,,S3b,,S4b,,S5b,暂无稻本体‘盐+得失功能’文献；表达数据库标注为GPCR样,No,No
+OS06G0254700,Peroxygenase样（OsPXG家族）,S1b,S2a,脂氧素/过氧化物表观代谢→ROS稳态,S3a,氧脂素/抗氧化网络,S4a,PXG在多植物逆境保守,S5a,OsPXG9过表达降低盐诱导ROS与细胞死亡，提高存活，为正调控（稻本体）,Yes,Yes
+OS06G0498400,OsGWD1（α-淀粉水二激酶）,S1b,S2b,,S3b,,S4a,GWD在光合与碳代谢保守,S5b,报道集中在淀粉动员/粒质，缺‘盐+得失功能’因果,No,No
+OS06G0567200,OsAAO1（Ascorbate oxidase 1）,S1b,S2a,抗氧化/抗坏血酸氧化; ROS信号,S3b,,S4a,AAO在抗氧化网络保守,S5b,目前为表达/关联与逆境提示，缺稻本体盐因果,No,Yes
+OS07G0119400,OsAAO3（Ascorbate oxidase）,S1b,S2a,抗氧化代谢; 细胞壁-胞外AAO,S3b,,S4a,AAO保守,S5b,缺‘盐+得失功能’稻本体证据,No,No
+OS07G0129200,OsPR1a / OsSCP,S1b,S2b,,S3b,,S4a,PR1保守病程反应；盐多为标记基因,S5b,未见在水稻本体过表/缺失直接改变耐盐的因果；异源系统有增耐报道,No,No
+OS07G0143700,OsRH53（DEAD-box RNA helicase）,S1b,S2b,,S3b,,S4a,DEAD-box解旋酶在逆境保守,S5b,缺乏稻本体盐得失功能证据,No,No
+OS07G0168800,ZFP177 / OsSAP9,S1b,S2a,A20/AN1 SAP锌指; 应激信号,S3b,,S4a,SAP家族在稻多基因影响盐耐（OsSAP1/6等）,S5b,OsSAP9多数为表达与在他种的过表效应（温度/负调控）；未见稻本体盐因果,No,Yes
+OS07G0572800,OsWNK1,S1b,S2b,,S3b,,S4a,WNK家族在离子稳态/逆境中保守（他种有盐表型，如OsWNK9）,S5b,未检得OsWNK1在稻本体‘盐+得失功能’因果；同家族OsWNK9在稻中有增耐盐报告,No,Yes
+OS07G0637400,OsNPSN13,S1b,S2b,,S3b,,S4b,,S5b,定位为Qb-SNARE；报道与H2O2/质膜定位相关，缺稻本体盐因果,No,No
+OS08G0112700,OsMADS26,S1b,S2b,,S3b,,S4a,MADS在多胁迫调控保守,S5b,为生物/非生物胁迫负调控枢纽，但文献未给出稻体‘盐+得失功能’明确表型,No,No
+OS09G0486500,OsSAP1/OsiSAP1,S1b,S2b,,S3b,,S4a,A20/AN1 SAP家族跨物种耐盐保守,S5b,稻本体已证实抗旱增强；盐耐强证据主要在烟草/专利，缺‘稻+盐+因果’原始论文,No,Yes
+OS09G0555500,OsNCED3,S1b,S2a,ABA生物合成核心酶,S3a,ABA信号/渗透胁迫通路,S4a,NCED通路在被子植物保守,S5a,OsNCED3过表达/沉默系在稻本体改变ABA并提高包括盐在内的逆境耐受,No,Yes
+OS10G0409400,OsPGIP1,S1b,S2b,,S3b,,S4a,PGIP在免疫中保守,S5a,聚焦病害抗性；未见稻体‘盐+得失功能’因果,Yes,Yes
+OS10G0419400,OsARD1,S1b,S2a,Met循环/乙烯合成; 胁迫适应,S3a,乙烯信号网络,S4a,ARD/乙烯在植物逆境保守,S5a,稻中过表达OsARD1降低对盐/旱敏感性，提升耐受（前沿文献）,Yes,Yes
+OS10G0553300,OsTPP1（Trehalose-6-P phosphatase）,S1b,S2a,海藻糖代谢/渗透保护; 激素-能量交叉,S3a,渗透/ABA旁路,S4a,TPP/TPS在植物逆境保守,S5a,稻中过表达OsTPP1提高盐/旱耐受并激活逆境基因,No,Yes
+OS10G0577800,OsSRO1a/TWI1,S1b,S2b,,S3b,,S4a,SRO/RCD1家族在逆境调控保守,S5b,已知参与JA/转录调控与叶形，但缺‘稻体盐+得失功能’因果,No,Yes
+OS01G0963600,OsASR6,S1b,S2a,ASR蛋白；与ABA/ROS/NCED1互作,S3a,ABA-ROS调控通路,S4a,ASR在植物逆境中保守,S5a,OsASR6过表达提高盐耐受，RNAi更敏感；并与OsNCED1互作（稻本体）,Yes,Yes
+OS01G0959100,OsASR3,S1b,S2b,,S3b,,S4b,,S5a,Mol Cells 2013报告：OsASR1/OsASR3过表达提高抗旱/抗冷，但在盐处理下与野生型无差异；未见稻本体得失功能改善耐盐的直接证据,Yes,Yes
