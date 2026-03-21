@@ -1,2 +1,0 @@
-Graph: E'={ OS06G0665500→Label }
-BIC=-254607
