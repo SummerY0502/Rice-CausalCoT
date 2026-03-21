@@ -134,6 +134,11 @@ cd CausalCoT
 python CausalStruCoT.py
 python CausalExCoT.py
 ```
+---
+
+## Data Availability
+
+The data provided and used in this repository correspond to the rice salt tolerance transcriptomic dataset from NCBI BioProject (PRJNA1010833). In addition, a rice heat tolerance dataset (PRJNA301554) and a wheat drought tolerance dataset (PRJCA025815) from the China National Center for Bioinformation (CNCB) were analyzed in this study. The data collection and processing procedures for these additional datasets are described in the Supplementary Materials.
 
 
 
